@@ -16,16 +16,40 @@ function CoverSection() {
           top: "1.38669rem",
           width: "9.01333rem",
           height: "13.5467rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-7BwbSCHQZZwyybk3e8s642JY3XD7cZtH.jpeg?imageMogr2/auto-orient/crop/!1533x2304a155a576/quality/90|imageMogr2/thumbnail/1014x1524"
-                alt=""
-                style={{ opacity: 1, left: "-0.003px", height: "508px", width: "338.037px" }}
+                // src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-7BwbSCHQZZwyybk3e8s642JY3XD7cZtH.jpeg?imageMogr2/auto-orient/crop/!1533x2304a155a576/quality/90|imageMogr2/thumbnail/1014x1524"
+                src="https://lh3.googleusercontent.com/u/0/d/1sG5bOX0HixBY9fOgP-7eJoedpWIg0xgx"
+                alt="Ảnh từ Google Drive"
+                style={{
+                  opacity: 1,
+                  left: "-0.003px",
+                  height: "508px",
+                  width: "338.037px",
+                }}
               />
             </div>
           </div>
@@ -46,16 +70,39 @@ function CoverSection() {
           top: "-0.50667rem",
           width: "10.5067rem",
           height: "3.12rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-KzkP3MtKMRBRwpFT2HYsAP3d56WkS7d7.png?imageMogr2/auto-orient/crop/!1252x371a134a94/quality/90|imageMogr2/thumbnail/1184x351"
                 alt=""
-                style={{ opacity: 1, left: "-0.418px", height: "117px", width: "394.828px" }}
+                style={{
+                  opacity: 1,
+                  left: "-0.418px",
+                  height: "117px",
+                  width: "394.828px",
+                }}
               />
             </div>
           </div>
@@ -76,16 +123,39 @@ function CoverSection() {
           top: "1.44rem",
           width: "2.13333rem",
           height: "14.0533rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-ePdPKhshs2NrQw5FiGH3sSdkz85Hccc4.png?imageMogr2/auto-orient/crop/!224x1475a171a187/quality/90|imageMogr2/thumbnail/240x1580"
                 alt=""
-                style={{ opacity: 1, left: "-0.016px", height: "527px", width: "80.0286px" }}
+                style={{
+                  opacity: 1,
+                  left: "-0.016px",
+                  height: "527px",
+                  width: "80.0286px",
+                }}
               />
             </div>
           </div>
@@ -106,16 +176,39 @@ function CoverSection() {
           top: "13.8133rem",
           width: "10.7467rem",
           height: "5.28rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-tkrw7e5Bpbw6QsyXtDmenyPeKiP5QDzJ.png?imageMogr2/auto-orient/crop/!1272x624a140a45/quality/90|imageMogr2/thumbnail/1210x594"
                 alt=""
-                style={{ opacity: 1, left: "-0.308px", height: "198px", width: "403.553px" }}
+                style={{
+                  opacity: 1,
+                  left: "-0.308px",
+                  height: "198px",
+                  width: "403.553px",
+                }}
               />
             </div>
           </div>
@@ -136,16 +229,39 @@ function CoverSection() {
           top: "1.76rem",
           width: "2.32rem",
           height: "15.5467rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-FiHKSdRcQG2n3K8GdywtTAwBYaG8zEYQ.png?imageMogr2/auto-orient/crop/!236x1582a133a166/quality/90|imageMogr2/thumbnail/261x1749"
                 alt=""
-                style={{ opacity: 1, top: "-0.097px", width: "87px", height: "583.118px" }}
+                style={{
+                  opacity: 1,
+                  top: "-0.097px",
+                  width: "87px",
+                  height: "583.118px",
+                }}
               />
             </div>
           </div>
@@ -167,16 +283,39 @@ function CoverSection() {
           top: "83.6533rem",
           width: "2.18667rem",
           height: "0.8rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-5cGRtejscXZ2D6PdrmCAtDmmkkz5F83c.png?imageMogr2/auto-orient/crop/!189x70a87a94/quality/90|imageMogr2/thumbnail/246x91"
                 alt=""
-                style={{ opacity: 1, top: "-0.185px", width: "82.0001px", height: "30.3688px" }}
+                style={{
+                  opacity: 1,
+                  top: "-0.185px",
+                  width: "82.0001px",
+                  height: "30.3688px",
+                }}
               />
             </div>
           </div>
@@ -197,16 +336,39 @@ function CoverSection() {
           top: "-0.01rem",
           width: "7.14667rem",
           height: "4.61333rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-b6XDEGccP7P7hFtPQAWRkR4zDTRibeF5.png?imageMogr2/auto-orient/crop/!883x567a37a127/quality/90|imageMogr2/thumbnail/808x518"
                 alt=""
-                style={{ opacity: 1, left: "-0.708px", height: "173px", width: "269.454px" }}
+                style={{
+                  opacity: 1,
+                  left: "-0.708px",
+                  height: "173px",
+                  width: "269.454px",
+                }}
               />
             </div>
           </div>
@@ -227,16 +389,39 @@ function CoverSection() {
           top: "13.023rem",
           width: "5.30667rem",
           height: "2.69333rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-bYedDtd2ddACyfzBaFMXcbrpcZC8rjah.png?imageMogr2/auto-orient/crop/!807x412a203a207/quality/90|imageMogr2/thumbnail/597x304"
                 alt=""
-                style={{ opacity: 1, top: "-0.298px", width: "199px", height: "101.603px" }}
+                style={{
+                  opacity: 1,
+                  top: "-0.298px",
+                  width: "199px",
+                  height: "101.603px",
+                }}
               />
             </div>
           </div>
@@ -257,16 +442,39 @@ function CoverSection() {
           top: "12.1894rem",
           width: "4.02667rem",
           height: "3.12rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-y6rYjkeWZcYci7PzWxYfwfaZetzRJtxd.png?imageMogr2/auto-orient/crop/!470x365a220a171/quality/90|imageMogr2/thumbnail/453x351"
                 alt=""
-                style={{ opacity: 1, top: "-0.133px", width: "151px", height: "117.25px" }}
+                style={{
+                  opacity: 1,
+                  top: "-0.133px",
+                  width: "151px",
+                  height: "117.25px",
+                }}
               />
             </div>
           </div>
@@ -287,16 +495,39 @@ function CoverSection() {
           top: "14.0267rem",
           width: "4.34667rem",
           height: "1.92rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-bYedDtd2ddACyfzBaFMXcbrpcZC8rjah.png?imageMogr2/auto-orient/crop/!571x248a275a812/quality/90|imageMogr2/thumbnail/497x216"
                 alt=""
-                style={{ opacity: 1, left: "-1.387px", height: "72px", width: "165.796px" }}
+                style={{
+                  opacity: 1,
+                  left: "-1.387px",
+                  height: "72px",
+                  width: "165.796px",
+                }}
               />
             </div>
           </div>
@@ -317,16 +548,39 @@ function CoverSection() {
           top: "9.22667rem",
           width: "2.21333rem",
           height: "2.66667rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-PRW4nJTBMkAsXARGmbzzAbMkBCB4pr8c.png?imageMogr2/auto-orient/crop/!277x336a185a196/quality/90|imageMogr2/thumbnail/248x302"
                 alt=""
-                style={{ opacity: 1, top: "-0.339px", width: "82.9999px", height: "100.689px" }}
+                style={{
+                  opacity: 1,
+                  top: "-0.339px",
+                  width: "82.9999px",
+                  height: "100.689px",
+                }}
               />
             </div>
           </div>
@@ -347,16 +601,39 @@ function CoverSection() {
           top: "8.10667rem",
           width: "0.50667rem",
           height: "0.50667rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-y4EZ3QcpSMYJ8CCipCXZGWb5h8QWFNF2.png?imageMogr2/auto-orient/crop/!96x96a0a0/quality/90|imageMogr2/thumbnail/57x57"
                 alt=""
-                style={{ opacity: 1, left: "0px", height: "19.0001px", width: "18.9986px" }}
+                style={{
+                  opacity: 1,
+                  left: "0px",
+                  height: "19.0001px",
+                  width: "18.9986px",
+                }}
               />
             </div>
           </div>
@@ -378,16 +655,39 @@ function CoverSection() {
           top: "7.65333rem",
           width: "0.24rem",
           height: "0.24rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-y4EZ3QcpSMYJ8CCipCXZGWb5h8QWFNF2.png?imageMogr2/auto-orient/crop/!96x96a0a0/quality/90|imageMogr2/thumbnail/27x27"
                 alt=""
-                style={{ opacity: 1, left: "0px", height: "9px", width: "8.99972px" }}
+                style={{
+                  opacity: 1,
+                  left: "0px",
+                  height: "9px",
+                  width: "8.99972px",
+                }}
               />
             </div>
           </div>
@@ -409,16 +709,43 @@ function CoverSection() {
           width: "0.88rem",
           height: "0.82667rem",
           transform: "rotate(0deg)",
-          willChange: "transform"
+          willChange: "transform",
         }}
       >
-        <div className="ani-wrap" style={{ animation: "2.4s ease 0s infinite normal both running tada" }}>
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap heartbeat-shake" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)" }}>
+        <div
+          className="ani-wrap"
+          style={{
+            animation: "2.4s ease 0s infinite normal both running tada",
+          }}
+        >
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap heartbeat-shake"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-pK82zY7RpEPYPsjKaA3GraxHWzKdmA6t.png?imageMogr2/auto-orient/crop/!139x131a178a65/quality/90|imageMogr2/thumbnail/99x93"
                 alt=""
-                style={{ opacity: 1, top: "-0.05px", width: "33px", height: "31.1016px" }}
+                style={{
+                  opacity: 1,
+                  top: "-0.05px",
+                  width: "33px",
+                  height: "31.1016px",
+                }}
               />
             </div>
           </div>
@@ -439,16 +766,39 @@ function CoverSection() {
           top: "125.16rem",
           width: "0.74667rem",
           height: "0.74667rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-Nk5ZneBHnjtTMttM3rXfBBSRnYb2Er6y.png?imageMogr2/auto-orient/crop/!143x145a82a133/quality/90|imageMogr2/thumbnail/84x85"
                 alt=""
-                style={{ opacity: 1, top: "-0.196px", width: "28.0001px", height: "28.3924px" }}
+                style={{
+                  opacity: 1,
+                  top: "-0.196px",
+                  width: "28.0001px",
+                  height: "28.3924px",
+                }}
               />
             </div>
           </div>
@@ -469,16 +819,39 @@ function CoverSection() {
           top: "1.25333rem",
           width: "1.14667rem",
           height: "0.72rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-5cGRtejscXZ2D6PdrmCAtDmmkkz5F83c.png?imageMogr2/auto-orient/crop/!113x71a86a94/quality/90|imageMogr2/thumbnail/129x81"
                 alt=""
-                style={{ opacity: 1, top: "-0.009px", width: "43.0001px", height: "27.0167px" }}
+                style={{
+                  opacity: 1,
+                  top: "-0.009px",
+                  width: "43.0001px",
+                  height: "27.0167px",
+                }}
               />
             </div>
           </div>
@@ -500,16 +873,39 @@ function CoverSection() {
           top: "14.9281rem",
           width: "2.56rem",
           height: "0.96rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-5cGRtejscXZ2D6PdrmCAtDmmkkz5F83c.png?imageMogr2/auto-orient/crop/!193x72a105a218/quality/90|imageMogr2/thumbnail/289x108"
                 alt=""
-                style={{ opacity: 1, left: "-0.25px", height: "36px", width: "96.5px" }}
+                style={{
+                  opacity: 1,
+                  left: "-0.25px",
+                  height: "36px",
+                  width: "96.5px",
+                }}
               />
             </div>
           </div>
@@ -531,16 +927,39 @@ function CoverSection() {
           top: "125.947rem",
           width: "0.69333rem",
           height: "0.69333rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-Nk5ZneBHnjtTMttM3rXfBBSRnYb2Er6y.png?imageMogr2/auto-orient/crop/!130x129a256a140/quality/90|imageMogr2/thumbnail/78x77"
                 alt=""
-                style={{ opacity: 1, left: "-0.101px", height: "25.9999px", width: "26.1991px" }}
+                style={{
+                  opacity: 1,
+                  left: "-0.101px",
+                  height: "25.9999px",
+                  width: "26.1991px",
+                }}
               />
             </div>
           </div>
@@ -562,16 +981,39 @@ function CoverSection() {
           top: "83.5067rem",
           width: "0.45333rem",
           height: "0.45333rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-Nk5ZneBHnjtTMttM3rXfBBSRnYb2Er6y.png?imageMogr2/auto-orient/crop/!133x132a417a138/quality/90|imageMogr2/thumbnail/51x50"
                 alt=""
-                style={{ opacity: 1, left: "-0.064px", height: "16.9999px", width: "17.1281px" }}
+                style={{
+                  opacity: 1,
+                  left: "-0.064px",
+                  height: "16.9999px",
+                  width: "17.1281px",
+                }}
               />
             </div>
           </div>
@@ -593,16 +1035,39 @@ function CoverSection() {
           top: "82.56rem",
           width: "0.74667rem",
           height: "0.74667rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
                 src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-Nk5ZneBHnjtTMttM3rXfBBSRnYb2Er6y.png?imageMogr2/auto-orient/crop/!131x130a581a142/quality/90|imageMogr2/thumbnail/84x84"
                 alt=""
-                style={{ opacity: 1, left: "-0.108px", height: "28.0001px", width: "28.2145px" }}
+                style={{
+                  opacity: 1,
+                  left: "-0.108px",
+                  height: "28.0001px",
+                  width: "28.2145px",
+                }}
               />
             </div>
           </div>
@@ -625,7 +1090,7 @@ function CoverSection() {
           top: "76.6667rem",
           width: "8.37333rem",
           height: "6.93333rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -635,7 +1100,7 @@ function CoverSection() {
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
             borderWidth: "0rem",
-            boxShadow: "rgb(153, 153, 153) 0px 0px 0px"
+            boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
           }}
         >
           <div
@@ -685,16 +1150,44 @@ function CoverSection() {
           top: "74.9333rem",
           width: "8.08rem",
           height: "8.08rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div className="ani-wrap">
-          <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+          <div
+            data-link=""
+            data-hash=""
+            className="rotate-wrap"
+            style={{
+              WebkitMaskBoxImageSlice: "0 fill",
+              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
+              borderRadius: "0rem",
+            }}
+          >
+            <div
+              className="img-wrap"
+              style={{
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+              }}
+            >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-7BwbSCHQZZwyybk3e8s642JY3XD7cZtH.jpeg?imageMogr2/auto-orient/crop/!1728x1728a41a1052/quality/90|imageMogr2/thumbnail/909x909"
-                alt=""
-                style={{ opacity: 1, left: "0px", height: "303px", width: "302.998px" }}
+                // src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-7BwbSCHQZZwyybk3e8s642JY3XD7cZtH.jpeg?imageMogr2/auto-orient/crop/!1728x1728a41a1052/quality/90|imageMogr2/thumbnail/909x909"
+                src="https://lh3.googleusercontent.com/u/0/d/17_8bHW6llRU9EQCcpL2N7Y4ECEGjFtwX"
+                alt="Ảnh từ Google Drive"
+                style={{
+                  opacity: 1,
+                  // left: "0px",
+                  // height: "303px",
+                  // width: "302.998px",
+                  height: "100%",
+                  width: "100%",
+                  objectFit: "cover",
+                  objectPosition: "50% 20%",
+                }}
               />
             </div>
           </div>
@@ -717,7 +1210,7 @@ function CoverSection() {
           top: "3.06667rem",
           // width: "1.6rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -726,7 +1219,7 @@ function CoverSection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -744,10 +1237,13 @@ function CoverSection() {
               textAlign: "center",
               lineHeight: 1.6,
               fontFamily: "cursive",
-              wordBreak: "break-all"
+              wordBreak: "break-all",
             }}
           >
-            Chú<br />rể</div>
+            Chú
+            <br />
+            rể
+          </div>
         </div>
       </div>
 
@@ -764,12 +1260,12 @@ function CoverSection() {
         namesign=""
         copyindex="21"
         style={{
-          right: '0.1rem',
+          right: "0.1rem",
           // left: "8.2rem",
           top: "4.1rem",
           // width: "1.6rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -778,7 +1274,7 @@ function CoverSection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -796,10 +1292,13 @@ function CoverSection() {
               textAlign: "center",
               lineHeight: 1.4,
               fontFamily: "cursive",
-              wordBreak: "break-all"
+              wordBreak: "break-all",
             }}
           >
-            Hồng<br />Quân</div>
+            Hồng
+            <br />
+            Quân
+          </div>
         </div>
       </div>
 
@@ -820,7 +1319,7 @@ function CoverSection() {
           top: "6.02667rem",
           // width: "1.6rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -829,7 +1328,7 @@ function CoverSection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -847,10 +1346,13 @@ function CoverSection() {
               textAlign: "center",
               lineHeight: 1.6,
               fontFamily: "cursive",
-              wordBreak: "break-all"
+              wordBreak: "break-all",
             }}
           >
-            Cô<br />dâu</div>
+            Cô
+            <br />
+            dâu
+          </div>
         </div>
       </div>
 
@@ -871,7 +1373,7 @@ function CoverSection() {
           top: "7.1rem",
           // width: "1.6rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -880,7 +1382,7 @@ function CoverSection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -898,14 +1400,17 @@ function CoverSection() {
               textAlign: "center",
               lineHeight: 1.4,
               fontFamily: "cursive",
-              wordBreak: "break-all"
+              wordBreak: "break-all",
             }}
           >
-            Minh<br />Thìn</div>
+            Minh
+            <br />
+            Thìn
+          </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default CoverSection
+export default CoverSection;

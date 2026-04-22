@@ -11,8 +11,8 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   /* font: 18px/145% var(--sans);
@@ -61,7 +61,7 @@ body {
   display: flex;
   justify-content: center;
   background: #fff;
-  background-image: url('https://www.hunbei.com/static/hunbei/img/preview-bg.png?v=1');
+  background-image: url("https://www.hunbei.com/static/hunbei/img/preview-bg.png?v=1");
   background-size: cover;
   background-position: center;
 }
@@ -74,7 +74,6 @@ body {
   box-sizing: border-box;
   overflow: hidden;
 }
-
 
 h1,
 h2 {

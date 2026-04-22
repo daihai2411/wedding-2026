@@ -16,10 +16,18 @@ function MapSection() {
           top: "110.4rem",
           width: "5.62667rem",
           height: "5.09333rem",
-          transform: "rotate(12deg)"
+          transform: "rotate(12deg)",
         }}
       >
-        <div className="ani-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)" }}>
+        <div
+          className="ani-wrap"
+          style={{
+            borderRadius: "0rem",
+            borderWidth: "0rem",
+            borderStyle: "solid",
+            borderColor: "rgb(153, 153, 153)",
+          }}
+        >
           <div className="map" style={{ opacity: 1 }}>
             <div className="mask-map">
               <iframe
@@ -38,7 +46,16 @@ function MapSection() {
               />
             </div>
           </div>
-          <div className="map" style={{ opacity: 1, fontSize: "0.8rem", color: "rgb(255, 255, 255)", backgroundColor: "rgb(52, 68, 244)", display: "none" }}>
+          <div
+            className="map"
+            style={{
+              opacity: 1,
+              fontSize: "0.8rem",
+              color: "rgb(255, 255, 255)",
+              backgroundColor: "rgb(52, 68, 244)",
+              display: "none",
+            }}
+          >
             <button type="button" className="el-button el-button--primary">
               <span>导航</span>
             </button>
@@ -63,7 +80,7 @@ function MapSection() {
           top: "139.547rem",
           width: "6.13333rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -72,7 +89,7 @@ function MapSection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -89,10 +106,15 @@ function MapSection() {
               color: "rgb(62, 56, 56)",
               textAlign: "left",
               lineHeight: 2,
-              fontFamily: "siyuanheitichanggui"
+              fontFamily: "siyuanheitichanggui",
             }}
           >
-            从此<br />有人问我粥可温<br />有人与我共黄昏</div>
+            从此
+            <br />
+            有人问我粥可温
+            <br />
+            有人与我共黄昏
+          </div>
         </div>
       </div>
 
@@ -113,7 +135,7 @@ function MapSection() {
           top: "85.04rem",
           width: "6.64rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -122,7 +144,7 @@ function MapSection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -139,14 +161,16 @@ function MapSection() {
               color: "rgb(62, 56, 56)",
               textAlign: "left",
               lineHeight: 2.2,
-              fontFamily: "siyuanheitichanggui"
+              fontFamily: "siyuanheitichanggui",
             }}
           >
-            Nguyện cầu đến năm mươi năm về sau<br />
-            Được quấn quýt luôn bên cạnh nhau<br />
-            Ngồi trên xích đu trông hoàng hôn<br />
+            Nguyện cầu đến năm mươi năm về sau
+            <br />
+            Được quấn quýt luôn bên cạnh nhau
+            <br />
+            Ngồi trên xích đu trông hoàng hôn
+            <br />
             Cảm nhận ánh nắng khi lam chiều buông
-
           </div>
         </div>
       </div>
@@ -168,7 +192,7 @@ function MapSection() {
           top: "103.12rem",
           width: "6.64rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -177,7 +201,7 @@ function MapSection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -194,10 +218,17 @@ function MapSection() {
               color: "rgb(62, 56, 56)",
               textAlign: "right",
               lineHeight: 2.2,
-              fontFamily: "siyuanheitichanggui"
+              fontFamily: "siyuanheitichanggui",
             }}
           >
-            Gió la đà nhẹ nhàng lướt qua<br />Sông xuôi dòng lãng đãng về xa<br />Hàn huyên những ngây thơ khi xưa<br />Thuở ta mới có nhau đón đưa</div>
+            Gió la đà nhẹ nhàng lướt qua
+            <br />
+            Sông xuôi dòng lãng đãng về xa
+            <br />
+            Hàn huyên những ngây thơ khi xưa
+            <br />
+            Thuở ta mới có nhau đón đưa
+          </div>
         </div>
       </div>
 
@@ -208,8 +239,7 @@ function MapSection() {
         type="image"
         signsort="23"
         pid=""
-        sign="true"
-        imgmattinginfo="[object Object]"
+        imgmattinginfo=""
         overturntypenew="0"
         copyindex="41"
         style={{
@@ -217,26 +247,52 @@ function MapSection() {
           top: "89.1067rem",
           width: "8.45333rem",
           height: "12.6933rem",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
+          zIndex: 10,
         }}
       >
-        <div className="ani-wrap">
+        <div className="ani-wrap" style={{ width: "100%", height: "100%" }}>
           <div
             data-link=""
             data-hash=""
             className="rotate-wrap"
             style={{
-              WebkitMaskBoxImageSource: "url(\"https://h5cdn.hunbei.com/figure/2022-02-11_6205f49346acf.png\")",
-              WebkitMaskBoxImageSlice: "0 fill",
+              width: "100%",
+              height: "100%",
+              // Tạo hình vòm chuẩn bằng border-radius
+              borderRadius: "4.5rem 4.5rem 0 0",
+              overflow: "hidden",
               boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
-              borderRadius: "0rem"
             }}
           >
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+            <div
+              className="img-wrap"
+              style={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "0rem",
+                borderWidth: "0rem",
+                borderStyle: "solid",
+                borderColor: "rgb(153, 153, 153)",
+                transform: "none",
+                position: "relative",
+              }}
+            >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-7TxTfKksYSdNrhWmnYCXrrAN3HtFr3Bs.jpeg?imageMogr2/auto-orient/crop/!768x1152a156a144/quality/90|imageMogr2/thumbnail/951x1427"
+                // src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-7TxTfKksYSdNrhWmnYCXrrAN3HtFr3Bs.jpeg?imageMogr2/auto-orient/crop/!768x1152a156a144/quality/90|imageMogr2/thumbnail/1023x1534/format/webp"
+                src="https://lh3.googleusercontent.com/u/0/d/1i7r8GBFtrD0ShoP94oAuI9T9-MnD7CHg"
                 alt=""
-                style={{ opacity: 1, left: "-0.167px", height: "476px", width: "317.355px" }}
+                style={{
+                  opacity: 1,
+                  display: "block",
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  zIndex: 1,
+                }}
               />
             </div>
           </div>
@@ -260,7 +316,7 @@ function MapSection() {
           top: "105.441rem",
           width: "4.34667rem",
           height: "auto",
-          transform: "rotate(352deg)"
+          transform: "rotate(352deg)",
         }}
       >
         <div
@@ -269,7 +325,7 @@ function MapSection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -286,10 +342,11 @@ function MapSection() {
               color: "rgb(242, 119, 149)",
               textAlign: "center",
               lineHeight: 1,
-              fontFamily: "meiescript"
+              fontFamily: "meiescript",
             }}
           >
-            ·Địa chỉ·</div>
+            ·Địa chỉ·
+          </div>
         </div>
       </div>
 
@@ -310,7 +367,7 @@ function MapSection() {
           top: "118.853rem",
           width: "8.74667rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -319,7 +376,7 @@ function MapSection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -336,10 +393,12 @@ function MapSection() {
               color: "rgb(62, 56, 56)",
               textAlign: "left",
               lineHeight: 1.5,
-              fontFamily: "siyuanheitichanggui"
+              fontFamily: "siyuanheitichanggui",
             }}
           >
-            Trống Đồng Palace Cảnh Hồ <br /> 173B Trường Chinh, quận Thanh Xuân, Hà Nội.</div>
+            Trống Đồng Palace Cảnh Hồ <br /> 173B Trường Chinh, quận Thanh Xuân,
+            Hà Nội.
+          </div>
         </div>
       </div>
 
@@ -360,7 +419,7 @@ function MapSection() {
           top: "116.8rem",
           width: "5.49333rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -369,7 +428,7 @@ function MapSection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -386,17 +445,21 @@ function MapSection() {
               color: "rgb(62, 56, 56)",
               textAlign: "left",
               lineHeight: 1.2,
-              fontFamily: "poiretone"
+              fontFamily: "poiretone",
             }}
           >
-            Tay đan vào bàn tay của nhau<br />
-            Trong yên lặng nép khẽ mái đầu<br />
-            Khoảnh khắc đó có lẽ chính là đã trải qua<br />
-            Trọn đời có nhau</div>
+            Tay đan vào bàn tay của nhau
+            <br />
+            Trong yên lặng nép khẽ mái đầu
+            <br />
+            Khoảnh khắc đó có lẽ chính là đã trải qua
+            <br />
+            Trọn đời có nhau
+          </div>
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default MapSection
+export default MapSection;

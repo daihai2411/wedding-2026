@@ -59,7 +59,7 @@ function MusicPlayer() {
                 style={{ backgroundColor: "rgba(242, 119, 149, 0.21)" }}
             >
                 <img
-                    src="https://h5cdn.hunbei.com/icon/2022-07-18_62d50bf7ecf4e.png?V=1"
+                    src="/images/356d2a2cbf0e48ffbd877d1d50c2a226.png"
                     alt=""
                     className="music-icon"
                 />

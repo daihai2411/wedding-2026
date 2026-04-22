@@ -279,8 +279,8 @@ function MapSection() {
               }}
             >
               <img
-                // src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-7TxTfKksYSdNrhWmnYCXrrAN3HtFr3Bs.jpeg?imageMogr2/auto-orient/crop/!768x1152a156a144/quality/90|imageMogr2/thumbnail/1023x1534/format/webp"
-                src="https://lh3.googleusercontent.com/u/0/d/1i7r8GBFtrD0ShoP94oAuI9T9-MnD7CHg"
+                // src="/images/c8c914b13f58d835ebf9041798bbd1c4.jpeg"
+                src="/images/26ae6d859336cb723cff502ce8cae9bb.jpg"
                 alt=""
                 style={{
                   opacity: 1,

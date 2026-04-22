@@ -41,8 +41,8 @@ function CoverSection() {
               }}
             >
               <img
-                // src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-7BwbSCHQZZwyybk3e8s642JY3XD7cZtH.jpeg?imageMogr2/auto-orient/crop/!1533x2304a155a576/quality/90|imageMogr2/thumbnail/1014x1524"
-                src="https://lh3.googleusercontent.com/u/0/d/1sG5bOX0HixBY9fOgP-7eJoedpWIg0xgx"
+                // src="/images/7ab5d5e2090787f551c8a09d20789635.jpeg"
+                src="/images/141dbbc28b0d1f1a7d631294a745bf06.jpg"
                 alt="Ảnh từ Google Drive"
                 style={{
                   opacity: 1,
@@ -95,7 +95,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-KzkP3MtKMRBRwpFT2HYsAP3d56WkS7d7.png?imageMogr2/auto-orient/crop/!1252x371a134a94/quality/90|imageMogr2/thumbnail/1184x351"
+                src="/images/8875e615a1ac7787c806e79c720a8bcf.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -148,7 +148,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-ePdPKhshs2NrQw5FiGH3sSdkz85Hccc4.png?imageMogr2/auto-orient/crop/!224x1475a171a187/quality/90|imageMogr2/thumbnail/240x1580"
+                src="/images/d822523747963bba6b23b31c4b36a4de.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -201,7 +201,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-tkrw7e5Bpbw6QsyXtDmenyPeKiP5QDzJ.png?imageMogr2/auto-orient/crop/!1272x624a140a45/quality/90|imageMogr2/thumbnail/1210x594"
+                src="/images/c3b11dbd10a458f523c151ab1421e5a9.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -254,7 +254,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-FiHKSdRcQG2n3K8GdywtTAwBYaG8zEYQ.png?imageMogr2/auto-orient/crop/!236x1582a133a166/quality/90|imageMogr2/thumbnail/261x1749"
+                src="/images/d73d572d73293b6cb53b7955b76387dd.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -308,7 +308,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-5cGRtejscXZ2D6PdrmCAtDmmkkz5F83c.png?imageMogr2/auto-orient/crop/!189x70a87a94/quality/90|imageMogr2/thumbnail/246x91"
+                src="/images/b9c2723e294186203a06ff723e3bff3f.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -361,7 +361,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-b6XDEGccP7P7hFtPQAWRkR4zDTRibeF5.png?imageMogr2/auto-orient/crop/!883x567a37a127/quality/90|imageMogr2/thumbnail/808x518"
+                src="/images/81af1da45eccbdb4ce68a03eecba0586.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -414,7 +414,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-bYedDtd2ddACyfzBaFMXcbrpcZC8rjah.png?imageMogr2/auto-orient/crop/!807x412a203a207/quality/90|imageMogr2/thumbnail/597x304"
+                src="/images/9ee12f052e53b04175df850b6b600252.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -467,7 +467,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-y6rYjkeWZcYci7PzWxYfwfaZetzRJtxd.png?imageMogr2/auto-orient/crop/!470x365a220a171/quality/90|imageMogr2/thumbnail/453x351"
+                src="/images/6bffa8dcf9c8712ba7b5eb2c62047c9f.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -520,7 +520,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-bYedDtd2ddACyfzBaFMXcbrpcZC8rjah.png?imageMogr2/auto-orient/crop/!571x248a275a812/quality/90|imageMogr2/thumbnail/497x216"
+                src="/images/a3c271c06b3332173b781f4b25c93561.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -573,7 +573,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-PRW4nJTBMkAsXARGmbzzAbMkBCB4pr8c.png?imageMogr2/auto-orient/crop/!277x336a185a196/quality/90|imageMogr2/thumbnail/248x302"
+                src="/images/0a26e8b52bca635cb508463577240952.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -626,7 +626,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-y4EZ3QcpSMYJ8CCipCXZGWb5h8QWFNF2.png?imageMogr2/auto-orient/crop/!96x96a0a0/quality/90|imageMogr2/thumbnail/57x57"
+                src="/images/f5bec709f60599f3a12413f3f5a147d7.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -680,7 +680,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-y4EZ3QcpSMYJ8CCipCXZGWb5h8QWFNF2.png?imageMogr2/auto-orient/crop/!96x96a0a0/quality/90|imageMogr2/thumbnail/27x27"
+                src="/images/ef22777598abd37640149d3d42164f0e.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -738,7 +738,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-pK82zY7RpEPYPsjKaA3GraxHWzKdmA6t.png?imageMogr2/auto-orient/crop/!139x131a178a65/quality/90|imageMogr2/thumbnail/99x93"
+                src="/images/e62b07c3a2cde308139b9dd0758bc99b.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -791,7 +791,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-Nk5ZneBHnjtTMttM3rXfBBSRnYb2Er6y.png?imageMogr2/auto-orient/crop/!143x145a82a133/quality/90|imageMogr2/thumbnail/84x85"
+                src="/images/7fcac2a2754f48b5d0155c648805ed65.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -844,7 +844,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-5cGRtejscXZ2D6PdrmCAtDmmkkz5F83c.png?imageMogr2/auto-orient/crop/!113x71a86a94/quality/90|imageMogr2/thumbnail/129x81"
+                src="/images/27b194dc942f80b8985ad69841c198a2.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -898,7 +898,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-5cGRtejscXZ2D6PdrmCAtDmmkkz5F83c.png?imageMogr2/auto-orient/crop/!193x72a105a218/quality/90|imageMogr2/thumbnail/289x108"
+                src="/images/87819f70071187a9b0325b1668e3b5c7.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -952,7 +952,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-Nk5ZneBHnjtTMttM3rXfBBSRnYb2Er6y.png?imageMogr2/auto-orient/crop/!130x129a256a140/quality/90|imageMogr2/thumbnail/78x77"
+                src="/images/11c43966d8f62edf68ef7c4d6bd557a3.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -1006,7 +1006,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-Nk5ZneBHnjtTMttM3rXfBBSRnYb2Er6y.png?imageMogr2/auto-orient/crop/!133x132a417a138/quality/90|imageMogr2/thumbnail/51x50"
+                src="/images/d0ffe11193ef73ab3a96e14ebce241b5.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -1060,7 +1060,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-Nk5ZneBHnjtTMttM3rXfBBSRnYb2Er6y.png?imageMogr2/auto-orient/crop/!131x130a581a142/quality/90|imageMogr2/thumbnail/84x84"
+                src="/images/ffba7921adde94cc5d4f593e68b48b71.png"
                 alt=""
                 style={{
                   opacity: 1,
@@ -1175,8 +1175,8 @@ function CoverSection() {
               }}
             >
               <img
-                // src="https://h5cdn.hunbei.com/editorCustomPic/2024-12-27-7BwbSCHQZZwyybk3e8s642JY3XD7cZtH.jpeg?imageMogr2/auto-orient/crop/!1728x1728a41a1052/quality/90|imageMogr2/thumbnail/909x909"
-                src="https://lh3.googleusercontent.com/u/0/d/17_8bHW6llRU9EQCcpL2N7Y4ECEGjFtwX"
+                // src="/images/d359e9f0cd89b2b47678624d83e5bdbf.jpeg"
+                src="/images/49a4de481738bda1ee55d3d8d91ae1cf.jpg"
                 alt="Ảnh từ Google Drive"
                 style={{
                   opacity: 1,

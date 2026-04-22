@@ -4834,8 +4834,7 @@ input::-webkit-input-placeholder {
   bottom: 0;
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto
+  overflow: auto
 }
 
 #page-list .page-item .page-wrap .page-bg {

@@ -531,7 +531,7 @@ function CalendarSection() {
       >
         <div className="ani-wrap">
           <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+            <div className="img-wrap star-pulse" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
               <img
                 src="/images/20e76f13c8fd4a935306590a0cd54c80.png"
                 alt=""
@@ -562,7 +562,7 @@ function CalendarSection() {
       >
         <div className="ani-wrap">
           <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+            <div className="img-wrap star-pulse" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
               <img
                 src="/images/64cff28b0842ee1f483cbaac1d778507.png"
                 alt=""
@@ -593,7 +593,7 @@ function CalendarSection() {
       >
         <div className="ani-wrap">
           <div data-link="" data-hash="" className="rotate-wrap" style={{ WebkitMaskBoxImageSlice: "0 fill", boxShadow: "rgb(153, 153, 153) 0px 0px 0px", borderRadius: "0rem" }}>
-            <div className="img-wrap" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
+            <div className="img-wrap star-pulse" style={{ borderRadius: "0rem", borderWidth: "0rem", borderStyle: "solid", borderColor: "rgb(153, 153, 153)", transform: "none" }}>
               <img
                 src="/images/58db1ae3d8029e769434f0b809f88ce4.png"
                 alt=""

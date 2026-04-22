@@ -616,7 +616,7 @@ function CoverSection() {
             }}
           >
             <div
-              className="img-wrap"
+              className="img-wrap star-pulse"
               style={{
                 borderRadius: "0rem",
                 borderWidth: "0rem",
@@ -670,7 +670,7 @@ function CoverSection() {
             }}
           >
             <div
-              className="img-wrap"
+              className="img-wrap star-pulse"
               style={{
                 borderRadius: "0rem",
                 borderWidth: "0rem",

@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 function CoverSection() {
   return (
     <>
@@ -5,12 +7,12 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735281932688"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        sign="true"
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-sign="true"
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "0.50667rem",
           top: "1.38669rem",
@@ -60,11 +62,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735296220103"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "-0.24rem",
           top: "-0.50667rem",
@@ -113,11 +115,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735296556120"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "-0.38366rem",
           top: "1.44rem",
@@ -166,11 +168,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735293600047"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "-0.37333rem",
           top: "13.8133rem",
@@ -219,11 +221,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735295960205"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "8.21333rem",
           top: "1.76rem",
@@ -272,12 +274,12 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="copy-1735289064873"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
-        copyindex="11"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
+        data-copyindex="11"
         style={{
           left: "7.92rem",
           top: "83.6533rem",
@@ -326,11 +328,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735285405836"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "-0.01rem",
           top: "-0.01rem",
@@ -379,11 +381,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735282281236"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "4.77333rem",
           top: "13.023rem",
@@ -432,11 +434,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735290084520"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "6.8rem",
           top: "12.1894rem",
@@ -485,11 +487,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735282856299"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "6.02667rem",
           top: "14.0267rem",
@@ -538,11 +540,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735287947724"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "-0.01rem",
           top: "9.22667rem",
@@ -591,11 +593,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735283017636"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "9.28rem",
           top: "8.10667rem",
@@ -644,12 +646,12 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="copy-1735284021348"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
-        copyindex="7"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
+        data-copyindex="7"
         style={{
           left: "9.6rem",
           top: "7.65333rem",
@@ -698,11 +700,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735282977673"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "5.17333rem",
           top: "0.63826rem",
@@ -756,11 +758,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735290291266"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "0.61333rem",
           top: "125.16rem",
@@ -809,11 +811,11 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735289442343"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "8.96rem",
           top: "1.25333rem",
@@ -862,12 +864,12 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="copy-1735281673931"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
-        copyindex="11"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
+        data-copyindex="11"
         style={{
           left: "-1.12rem",
           top: "14.9281rem",
@@ -916,12 +918,12 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="copy-1735283973069"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
-        copyindex="10"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
+        data-copyindex="10"
         style={{
           left: "0.65856rem",
           top: "125.947rem",
@@ -970,12 +972,12 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="copy-1735286036510"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
-        copyindex="13"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
+        data-copyindex="13"
         style={{
           left: "0.77333rem",
           top: "83.5067rem",
@@ -1024,12 +1026,12 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="copy-1735288701190"
         data-type="image"
-        type="image"
-        signsort="1"
-        pid=""
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
-        copyindex="14"
+        data-custom-type="image"
+        data-signsort="1"
+        data-pid=""
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
+        data-copyindex="14"
         style={{
           left: "0.3rem",
           top: "82.56rem",
@@ -1078,10 +1080,10 @@ function CoverSection() {
         className="ele-shape eles"
         data-id="1735284740689"
         data-type="shape"
-        type="shape"
-        signsort="1"
-        pid=""
-        overturntypenew="0"
+        data-custom-type="shape"
+        data-signsort="1"
+        data-pid=""
+        data-overturntypenew="0"
         style={{
           opacity: 1,
           fontSize: "0rem",
@@ -1139,12 +1141,12 @@ function CoverSection() {
         className="ele-img animated eles"
         data-id="1735284647179"
         data-type="image"
-        type="image"
-        signsort="21"
-        pid=""
-        sign="true"
-        imgmattinginfo="[object Object]"
-        overturntypenew="0"
+        data-custom-type="image"
+        data-signsort="21"
+        data-pid=""
+        data-sign="true"
+        data-imgmattinginfo="[object Object]"
+        data-overturntypenew="0"
         style={{
           left: "2rem",
           top: "74.9333rem",
@@ -1194,23 +1196,26 @@ function CoverSection() {
         </div>
       </div>
 
-      <div
+      <motion.div
         className="ele-text ele-text-long eles"
         data-id="1735283927931"
         data-type="text"
-        type="text"
-        layername="文本32"
-        signsort="2"
-        signtype=""
-        pid=""
-        sign="true"
-        namesign=""
+        data-custom-type="text"
+        data-layername="文本32"
+        data-signsort="2"
+        data-signtype=""
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        initial={{ opacity: 0, y: -200, rotate: 90 }}
+        whileInView={{ opacity: 1, y: 0, rotate: 90 }}
+        viewport={{ once: true }}
+        transition={{ duration: 2.5, ease: "easeOut", delay: 0.2 }}
         style={{
-          right: "0.2rem",
-          top: "3.06667rem",
-          // width: "1.6rem",
+          right: "-2.3rem",
+          top: "4.8rem",
+          width: "5.5rem",
           height: "auto",
-          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -1228,152 +1233,44 @@ function CoverSection() {
             className="text-common text-editor siyuanheitichanggui"
             style={{
               opacity: 1,
-              letterSpacing: "0rem",
-              writingMode: "lr-tb",
+              letterSpacing: "0.02rem",
+              writingMode: "horizontal-tb",
               padding: "0.05rem",
               textIndent: "0rem",
-              fontSize: "0.3rem",
-              color: "rgb(62, 56, 56)",
-              textAlign: "center",
-              lineHeight: 1.6,
+              fontSize: "0.52rem",
+              textAlign: "left",
+              lineHeight: 1,
               fontFamily: "cursive",
-              wordBreak: "break-all",
+              whiteSpace: "nowrap",
             }}
           >
-            Chú
-            <br />
-            rể
+            <span style={{ color: "#ed5566" }}>Chú rể </span>
+            <span style={{ color: "#000000" }}>Hồng Quân</span>
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      <div
-        className="ele-text ele-text-long eles"
-        data-id="copy-1735288024674"
-        data-type="text"
-        type="text"
-        layername="文本33"
-        signsort="3"
-        signtype="bridegroom"
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="21"
-        style={{
-          right: "0.1rem",
-          // left: "8.2rem",
-          top: "4.1rem",
-          // width: "1.6rem",
-          height: "auto",
-          transform: "rotate(0deg)",
-        }}
-      >
-        <div
-          className="ani-wrap"
-          style={{
-            borderRadius: "0rem",
-            borderColor: "rgb(153, 153, 153)",
-            borderStyle: "solid",
-            borderWidth: "0rem",
-          }}
-        >
-          <div
-            data-link=""
-            data-hash=""
-            className="text-common text-editor siyuanheitichanggui"
-            style={{
-              opacity: 1,
-              letterSpacing: "0rem",
-              writingMode: "lr-tb",
-              padding: "0.05rem",
-              textIndent: "0rem",
-              fontSize: "0.3rem",
-              color: "rgb(62, 56, 56)",
-              textAlign: "center",
-              lineHeight: 1.4,
-              fontFamily: "cursive",
-              wordBreak: "break-all",
-            }}
-          >
-            Hồng
-            <br />
-            Quân
-          </div>
-        </div>
-      </div>
-
-      <div
-        className="ele-text ele-text-long eles"
-        data-id="copy-1735283049708"
-        data-type="text"
-        type="text"
-        layername="文本34"
-        signsort="4"
-        signtype=""
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="21"
-        style={{
-          left: "0.1rem",
-          top: "6.02667rem",
-          // width: "1.6rem",
-          height: "auto",
-          transform: "rotate(0deg)",
-        }}
-      >
-        <div
-          className="ani-wrap"
-          style={{
-            borderRadius: "0rem",
-            borderColor: "rgb(153, 153, 153)",
-            borderStyle: "solid",
-            borderWidth: "0rem",
-          }}
-        >
-          <div
-            data-link=""
-            data-hash=""
-            className="text-common text-editor siyuanheitichanggui"
-            style={{
-              opacity: 1,
-              letterSpacing: "0rem",
-              writingMode: "lr-tb",
-              padding: "0.05rem",
-              textIndent: "0rem",
-              fontSize: "0.3rem",
-              color: "rgb(62, 56, 56)",
-              textAlign: "center",
-              lineHeight: 1.6,
-              fontFamily: "cursive",
-              wordBreak: "break-all",
-            }}
-          >
-            Cô
-            <br />
-            dâu
-          </div>
-        </div>
-      </div>
-
-      <div
+      <motion.div
         className="ele-text ele-text-long eles"
         data-id="copy-1735284736989"
         data-type="text"
-        type="text"
-        layername="文本34"
-        signsort="5"
-        signtype="bride"
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="22"
+        data-custom-type="text"
+        data-layername="文本34"
+        data-signsort="5"
+        data-signtype="bride"
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        data-copyindex="22"
+        initial={{ opacity: 0, y: 200, rotate: -90 }}
+        whileInView={{ opacity: 1, y: 0, rotate: -90 }}
+        viewport={{ once: true }}
+        transition={{ duration: 2.5, ease: "easeOut", delay: 0.2 }}
         style={{
-          // left: "-0.4rem",
-          top: "7.1rem",
-          // width: "1.6rem",
+          left: "-2.3rem",
+          top: "7.3rem",
+          width: "5.5rem",
           height: "auto",
-          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -1391,24 +1288,22 @@ function CoverSection() {
             className="text-common text-editor siyuanheitichanggui"
             style={{
               opacity: 1,
-              letterSpacing: "0rem",
-              writingMode: "lr-tb",
+              letterSpacing: "0.02rem",
+              writingMode: "horizontal-tb",
               padding: "0.05rem",
               textIndent: "0rem",
-              fontSize: "0.3rem",
-              color: "rgb(62, 56, 56)",
-              textAlign: "center",
-              lineHeight: 1.4,
+              fontSize: "0.52rem",
+              textAlign: "right",
+              lineHeight: 1,
               fontFamily: "cursive",
-              wordBreak: "break-all",
+              whiteSpace: "nowrap",
             }}
           >
-            Minh
-            <br />
-            Thìn
+            <span style={{ color: "#ed5566" }}>Cô dâu </span>
+            <span style={{ color: "#000000" }}>Minh Thìn</span>
           </div>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 }

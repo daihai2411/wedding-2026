@@ -5,12 +5,12 @@ function MapSection() {
         className="element-ditu eles"
         data-id="1735291537906"
         data-type="ditu"
-        type="ditu"
-        layername="地图62"
-        signsort="27"
-        pid=""
-        sign="true"
-        textcontent=""
+        data-custom-type="ditu"
+        data-layername="地图62"
+        data-signsort="27"
+        data-pid=""
+        data-sign="true"
+        data-textcontent=""
         style={{
           left: "4.43288rem",
           top: "110.4rem",
@@ -67,14 +67,14 @@ function MapSection() {
         className="ele-text ele-text-long eles"
         data-id="copy-1735289285597"
         data-type="text"
-        type="text"
-        layername="文本63"
-        signsort="33"
-        signtype=""
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="46"
+        data-custom-type="text"
+        data-layername="文本63"
+        data-signsort="33"
+        data-signtype=""
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        data-copyindex="46"
         style={{
           left: "0.42667rem",
           top: "139.547rem",
@@ -99,7 +99,7 @@ function MapSection() {
             style={{
               opacity: 1,
               letterSpacing: "0.01rem",
-              writingMode: "lr-tb",
+              writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
               fontSize: "0.34rem",
@@ -122,14 +122,14 @@ function MapSection() {
         className="ele-text ele-text-long eles"
         data-id="copy-1735288180314"
         data-type="text"
-        type="text"
-        layername="文本65"
-        signsort="22"
-        signtype=""
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="43"
+        data-custom-type="text"
+        data-layername="文本65"
+        data-signsort="22"
+        data-signtype=""
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        data-copyindex="43"
         style={{
           left: "0.37333rem",
           top: "85.04rem",
@@ -154,7 +154,7 @@ function MapSection() {
             style={{
               opacity: 1,
               letterSpacing: "0.01rem",
-              writingMode: "lr-tb",
+              writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
               fontSize: "0.28rem",
@@ -179,14 +179,14 @@ function MapSection() {
         className="ele-text ele-text-long eles"
         data-id="copy-1735286747854"
         data-type="text"
-        type="text"
-        layername="文本66"
-        signsort="24"
-        signtype=""
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="49"
+        data-custom-type="text"
+        data-layername="文本66"
+        data-signsort="24"
+        data-signtype=""
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        data-copyindex="49"
         style={{
           left: "3.09333rem",
           top: "103.12rem",
@@ -211,7 +211,7 @@ function MapSection() {
             style={{
               opacity: 1,
               letterSpacing: "0.01rem",
-              writingMode: "lr-tb",
+              writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
               fontSize: "0.28rem",
@@ -236,12 +236,12 @@ function MapSection() {
         className="ele-img animated eles"
         data-id="copy-1735286713334"
         data-type="image"
-        type="image"
-        signsort="23"
-        pid=""
-        imgmattinginfo=""
-        overturntypenew="0"
-        copyindex="41"
+        data-custom-type="image"
+        data-signsort="23"
+        data-pid=""
+        data-imgmattinginfo=""
+        data-overturntypenew="0"
+        data-copyindex="41"
         style={{
           left: "0.77333rem",
           top: "89.1067rem",
@@ -303,14 +303,14 @@ function MapSection() {
         className="ele-text ele-text-long eles"
         data-id="copy-1735294473442"
         data-type="text"
-        type="text"
-        layername="文本68"
-        signsort="25"
-        signtype=""
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="49"
+        data-custom-type="text"
+        data-layername="文本68"
+        data-signsort="25"
+        data-signtype=""
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        data-copyindex="49"
         style={{
           left: "-0.27354rem",
           top: "105.441rem",
@@ -335,7 +335,7 @@ function MapSection() {
             style={{
               opacity: 1,
               letterSpacing: "0rem",
-              writingMode: "lr-tb",
+              writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
               fontSize: "0.85333rem",
@@ -354,14 +354,14 @@ function MapSection() {
         className="ele-text ele-text-long eles"
         data-id="copy-1735294413580"
         data-type="text"
-        type="text"
-        layername="文本69"
-        signsort="29"
-        signtype="address"
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="50"
+        data-custom-type="text"
+        data-layername="文本69"
+        data-signsort="29"
+        data-signtype="address"
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        data-copyindex="50"
         style={{
           left: "0.37333rem",
           top: "118.853rem",
@@ -386,7 +386,7 @@ function MapSection() {
             style={{
               opacity: 1,
               letterSpacing: "0.01rem",
-              writingMode: "lr-tb",
+              writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
               fontSize: "0.34rem",
@@ -406,14 +406,14 @@ function MapSection() {
         className="ele-text ele-text-long eles"
         data-id="copy-1735296392528"
         data-type="text"
-        type="text"
-        layername="文本72"
-        signsort="28"
-        signtype=""
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="53"
+        data-custom-type="text"
+        data-layername="文本72"
+        data-signsort="28"
+        data-signtype=""
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        data-copyindex="53"
         style={{
           left: "0.37333rem",
           top: "116.8rem",
@@ -438,7 +438,7 @@ function MapSection() {
             style={{
               opacity: 1,
               letterSpacing: "0rem",
-              writingMode: "lr-tb",
+              writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
               fontSize: "0.28rem",

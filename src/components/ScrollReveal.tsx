@@ -1,9 +1,9 @@
-import { motion } from 'framer-motion';
-import { ReactNode } from 'react';
+import { motion } from "framer-motion";
+import type { ReactNode } from "react";
 
 interface ScrollRevealProps {
   children: ReactNode;
-  direction?: 'up' | 'down' | 'left' | 'right';
+  direction?: "up" | "down" | "left" | "right";
   delay?: number;
   duration?: number;
   distance?: number;
@@ -11,13 +11,15 @@ interface ScrollRevealProps {
 
 const ScrollReveal = ({
   children,
-  direction = 'up',
+  direction = "up",
   delay = 0,
   duration = 0.8,
   distance = 50,
 }: ScrollRevealProps) => {
-  const xOffset = direction === 'left' ? distance : direction === 'right' ? -distance : 0;
-  const yOffset = direction === 'up' ? distance : direction === 'down' ? -distance : 0;
+  const xOffset =
+    direction === "left" ? distance : direction === "right" ? -distance : 0;
+  const yOffset =
+    direction === "up" ? distance : direction === "down" ? -distance : 0;
 
   return (
     <motion.div

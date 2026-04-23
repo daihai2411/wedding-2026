@@ -1,25 +1,24 @@
 function GallerySection() {
   return (
     <>
-
       <div
         className="ele-text ele-text-long eles"
         data-id="copy-1735286792564"
         data-type="text"
-        type="text"
-        layername="文本57"
-        signsort="10"
-        signtype=""
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="38"
+        data-custom-type="text"
+        data-layername="文本57"
+        data-signsort="10"
+        data-signtype=""
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        data-copyindex="38"
         style={{
           left: "0rem",
           top: "41.2rem",
           width: "10rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -28,7 +27,7 @@ function GallerySection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -38,17 +37,22 @@ function GallerySection() {
             style={{
               opacity: 1,
               letterSpacing: "0.01rem",
-              writingMode: "lr-tb",
+              writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
               fontSize: "0.28rem",
               color: "rgb(62, 56, 56)",
               textAlign: "center",
               lineHeight: 2.2,
-              fontFamily: "siyuanheitichanggui"
+              fontFamily: "siyuanheitichanggui",
             }}
           >
-            May mắn cả đời này của tôi<br />Là đã gặp đúng được người<br />Lúc em vừa hay yêu tôi và tôi cũng yêu người</div>
+            May mắn cả đời này của tôi
+            <br />
+            Là đã gặp đúng được người
+            <br />
+            Lúc em vừa hay yêu tôi và tôi cũng yêu người
+          </div>
         </div>
       </div>
 
@@ -56,20 +60,20 @@ function GallerySection() {
         className="ele-text ele-text-long eles"
         data-id="copy-1735294492751"
         data-type="text"
-        type="text"
-        layername="文本58"
-        signsort="15"
-        signtype=""
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="44"
+        data-custom-type="text"
+        data-layername="文本58"
+        data-signsort="15"
+        data-signtype=""
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        data-copyindex="44"
         style={{
           left: "8.2rem",
           top: "58.2933rem",
           width: "0.77333rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -78,7 +82,7 @@ function GallerySection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -88,17 +92,18 @@ function GallerySection() {
             style={{
               opacity: 1,
               letterSpacing: "0.01rem",
-              writingMode: "lr-tb",
+              writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
               fontSize: "0.42667rem",
               color: "rgb(62, 56, 56)",
               textAlign: "center",
               lineHeight: 1.5,
-              fontFamily: "siyuanheitichanggui"
+              fontFamily: "siyuanheitichanggui",
             }}
           >
-            星河滚烫</div>
+            星河滚烫
+          </div>
         </div>
       </div>
 
@@ -106,20 +111,20 @@ function GallerySection() {
         className="ele-text ele-text-long eles"
         data-id="copy-1735288888334"
         data-type="text"
-        type="text"
-        layername="文本60"
-        signsort="16"
-        signtype=""
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="45"
+        data-custom-type="text"
+        data-layername="文本60"
+        data-signsort="16"
+        data-signtype=""
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        data-copyindex="45"
         style={{
           left: "7.25333rem",
           top: "59.0667rem",
           width: "0.77333rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -128,7 +133,7 @@ function GallerySection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -138,17 +143,18 @@ function GallerySection() {
             style={{
               opacity: 1,
               letterSpacing: "0.01rem",
-              writingMode: "lr-tb",
+              writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
               fontSize: "0.42667rem",
               color: "rgb(62, 56, 56)",
               textAlign: "center",
               lineHeight: 1.5,
-              fontFamily: "siyuanheitichanggui"
+              fontFamily: "siyuanheitichanggui",
             }}
           >
-            你是人间理想</div>
+            你是人间理想
+          </div>
         </div>
       </div>
 
@@ -156,20 +162,20 @@ function GallerySection() {
         className="ele-text ele-text-long eles"
         data-id="copy-1735285810430"
         data-type="text"
-        type="text"
-        layername="文本61"
-        signsort="19"
-        signtype=""
-        pid=""
-        sign="true"
-        namesign=""
-        copyindex="37"
+        data-custom-type="text"
+        data-layername="文本61"
+        data-signsort="19"
+        data-signtype=""
+        data-pid=""
+        data-sign="true"
+        data-namesign=""
+        data-copyindex="37"
         style={{
           left: "3.41333rem",
           top: "70.2933rem",
           width: "6.18667rem",
           height: "auto",
-          transform: "rotate(0deg)"
+          transform: "rotate(0deg)",
         }}
       >
         <div
@@ -178,7 +184,7 @@ function GallerySection() {
             borderRadius: "0rem",
             borderColor: "rgb(153, 153, 153)",
             borderStyle: "solid",
-            borderWidth: "0rem"
+            borderWidth: "0rem",
           }}
         >
           <div
@@ -188,22 +194,32 @@ function GallerySection() {
             style={{
               opacity: 1,
               letterSpacing: "0.01rem",
-              writingMode: "lr-tb",
+              writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
               fontSize: "0.28rem",
               color: "rgb(62, 56, 56)",
               textAlign: "right",
               lineHeight: 2,
-              fontFamily: "siyuanheitichanggui"
+              fontFamily: "siyuanheitichanggui",
             }}
           >
-            Diễm phúc cả đời này của tôi<br />Là có thể ở bên người<br />Cũng chính là em đưa tôi khỏi bóng tối rối bời<br />Khoảnh khắc mà đôi ta thấy nhau<br />Lời hẹn ước từ trong ánh nhìn<br />Nửa đời còn lại dành cho em</div>
+            Diễm phúc cả đời này của tôi
+            <br />
+            Là có thể ở bên người
+            <br />
+            Cũng chính là em đưa tôi khỏi bóng tối rối bời
+            <br />
+            Khoảnh khắc mà đôi ta thấy nhau
+            <br />
+            Lời hẹn ước từ trong ánh nhìn
+            <br />
+            Nửa đời còn lại dành cho em
+          </div>
         </div>
       </div>
-
     </>
-  )
+  );
 }
 
-export default GallerySection
+export default GallerySection;

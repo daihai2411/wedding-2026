@@ -4689,8 +4689,6 @@ input::-webkit-input-placeholder {
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 800px;
-  margin: 0 auto;
   z-index: 1
 }
 
@@ -4734,7 +4732,7 @@ input::-webkit-input-placeholder {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition-timing-function: cubic-bezier(.1, .57, .1, 1);
-  background: white;
+  background: transparent;
 }
 
 #page-list .page-item .count-down {
@@ -4834,10 +4832,19 @@ input::-webkit-input-placeholder {
   bottom: 0;
   width: 100%;
   height: 100%;
-  overflow: auto
+  overflow: auto;
+}
+
+#page-list .page-item .page-wrap .ele-wrap {
+  /* Tạo dải trắng 380px ở giữa xuyên suốt toàn bộ chiều dài cuộn */
+  background: linear-gradient(to right, transparent calc(50% - 5rem), white calc(50% - 5rem), white calc(50% + 5rem), transparent calc(50% + 5rem));
+  background-attachment: local;
 }
 
 #page-list .page-item .page-wrap .page-bg {
+  width: 10rem;
+  left: 50%;
+  transform: translateX(-50%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -4850,6 +4857,14 @@ input::-webkit-input-placeholder {
 
 #page-list .page-item .page-wrap .eles {
   position: absolute
+}
+
+#page-list .page-item .page-wrap .ele-wrap .content-centered {
+  position: relative;
+  width: 10rem; /* Tương đương 380px */
+  margin: 0 auto;
+  min-height: 100%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 
 #page-list .tip-cover {
@@ -12638,7 +12653,7 @@ button.swiper-pagination-bullet {
   animation: slideInRight .3s reverse
 }
 
-@key Frames slideInRight {
+@keyframes slideInRight {
   0% {
     transform: translateX(100%)
   }

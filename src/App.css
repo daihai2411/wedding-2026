@@ -2215,7 +2215,7 @@ input::-webkit-input-placeholder {
 
 #audio {
   position: absolute;
-  right: .26667rem;
+  right: calc(50% - 5rem + 0.26667rem);
   top: .26667rem;
   z-index: 103;
   width: .8rem;
@@ -2234,6 +2234,10 @@ input::-webkit-input-placeholder {
   to {
     transform: rotate(1turn)
   }
+}
+
+#audio .user-stop {
+  animation-play-state: paused;
 }
 
 #audio .audio {
@@ -4865,6 +4869,12 @@ input::-webkit-input-placeholder {
   margin: 0 auto;
   min-height: 100%;
   box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  overflow-x: hidden;
+  pointer-events: none;
+}
+
+#page-list .page-item .page-wrap .ele-wrap .content-centered > * {
+  pointer-events: auto;
 }
 
 #page-list .tip-cover {

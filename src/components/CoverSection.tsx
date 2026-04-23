@@ -1210,7 +1210,7 @@ function CoverSection() {
         initial={{ opacity: 0, y: -200, rotate: 90 }}
         whileInView={{ opacity: 1, y: 0, rotate: 90 }}
         viewport={{ once: true }}
-        transition={{ duration: 2.5, ease: "easeOut", delay: 0.2 }}
+        transition={{ duration: 1.0, ease: "easeOut", delay: 0.2 }}
         style={{
           right: "-2.3rem",
           top: "4.8rem",
@@ -1265,7 +1265,7 @@ function CoverSection() {
         initial={{ opacity: 0, y: 200, rotate: -90 }}
         whileInView={{ opacity: 1, y: 0, rotate: -90 }}
         viewport={{ once: true }}
-        transition={{ duration: 2.5, ease: "easeOut", delay: 0.2 }}
+        transition={{ duration: 1.0, ease: "easeOut", delay: 0.2 }}
         style={{
           left: "-2.3rem",
           top: "7.3rem",

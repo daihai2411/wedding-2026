@@ -40,11 +40,10 @@ function GallerySection() {
               writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.28rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.3rem",
               textAlign: "center",
-              lineHeight: 2.2,
-              fontFamily: "siyuanheitichanggui",
+              lineHeight: 1.8,
+              fontFamily: '"Playwrite NZ Guides", cursive',
             }}
           >
             May mắn cả đời này của tôi
@@ -94,9 +93,9 @@ function GallerySection() {
         data-namesign=""
         data-copyindex="37"
         style={{
-          left: "3.41333rem",
+          right: "0.1rem",
           top: "70.9rem",
-          width: "6.18667rem",
+          width: "100%",
           height: "auto",
           transform: "rotate(0deg)",
         }}
@@ -120,11 +119,10 @@ function GallerySection() {
               writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.28rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.3rem",
               textAlign: "right",
-              lineHeight: 2,
-              fontFamily: "siyuanheitichanggui",
+              lineHeight: 1.8,
+              fontFamily: '"Playwrite NZ Guides", cursive',
             }}
           >
             Diễm phúc cả đời này của tôi

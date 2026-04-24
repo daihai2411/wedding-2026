@@ -131,9 +131,9 @@ function MapSection() {
         data-namesign=""
         data-copyindex="43"
         style={{
-          left: "0.37333rem",
-          top: "85.04rem",
-          width: "6.64rem",
+          left: "0.1rem",
+          top: "86.04rem",
+          width: "100%",
           height: "auto",
           transform: "rotate(0deg)",
         }}
@@ -157,11 +157,10 @@ function MapSection() {
               writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.28rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.3rem",
               textAlign: "left",
-              lineHeight: 2.2,
-              fontFamily: "siyuanheitichanggui",
+              lineHeight: 1.8,
+              fontFamily: '"Playwrite NZ Guides", cursive',
             }}
           >
             Nguyện cầu đến năm mươi năm về sau
@@ -188,9 +187,9 @@ function MapSection() {
         data-namesign=""
         data-copyindex="49"
         style={{
-          left: "3.09333rem",
+          right: "0.1rem",
           top: "102.8rem",
-          width: "6.64rem",
+          width: "100%",
           height: "auto",
           transform: "rotate(0deg)",
         }}
@@ -214,11 +213,10 @@ function MapSection() {
               writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.28rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.3rem",
               textAlign: "right",
-              lineHeight: 2,
-              fontFamily: "siyuanheitichanggui",
+              lineHeight: 1.8,
+              fontFamily: '"Playwrite NZ Guides", cursive',
             }}
           >
             Gió la đà nhẹ nhàng lướt qua
@@ -363,9 +361,9 @@ function MapSection() {
         data-namesign=""
         data-copyindex="50"
         style={{
-          left: "0.37333rem",
+          left: "0.1rem",
           top: "116.853rem",
-          width: "8.74667rem",
+          width: "100%",
           height: "auto",
           transform: "rotate(0deg)",
         }}
@@ -415,9 +413,9 @@ function MapSection() {
         data-namesign=""
         data-copyindex="53"
         style={{
-          left: "0.37333rem",
+          left: "0.1rem",
           top: "119rem",
-          width: "5.49333rem",
+          width: "100%",
           height: "auto",
           transform: "rotate(0deg)",
         }}
@@ -441,11 +439,10 @@ function MapSection() {
               writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.28rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.3rem",
               textAlign: "left",
-              lineHeight: 2,
-              fontFamily: "siyuanheitichanggui",
+              lineHeight: 1.8,
+              fontFamily: '"Playwrite NZ Guides", cursive',
             }}
           >
             Tay đan vào bàn tay của nhau

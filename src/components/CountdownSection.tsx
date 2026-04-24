@@ -87,7 +87,7 @@ function CountdownSection() {
         data-sign="true"
         style={{
           left: "0.64rem",
-          top: "43.3717rem",
+          top: "45rem",
           transform: "rotate(0deg)",
           width: "2.26667rem",
           height: "10rem",

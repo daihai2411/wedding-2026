@@ -484,7 +484,7 @@ function InvitationSection() {
         className="ele-img animated eles"
         style={{
           left: "3.49333rem",
-          top: "44.7856rem",
+          top: "44rem",
           width: "6.58667rem",
           height: "5.84rem",
           transform: "rotate(0deg)",
@@ -535,7 +535,7 @@ function InvitationSection() {
         className="ele-img animated eles"
         style={{
           left: "3.49333rem",
-          top: "51.0789rem",
+          top: "50.1rem",
           width: "6.58667rem",
           height: "5.84rem",
           transform: "rotate(0deg)",
@@ -586,8 +586,8 @@ function InvitationSection() {
         className="ele-text ele-text-long eles"
         style={{
           left: "0.10667rem",
-          top: "53.5733rem",
-          width: "3.30667rem",
+          top: "56.5733rem",
+          width: "100%",
           height: "auto",
           transform: "rotate(0deg)",
         }}
@@ -610,21 +610,17 @@ function InvitationSection() {
               letterSpacing: "0.01",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.28rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.3rem",
               textAlign: "left",
-              lineHeight: 2,
-              fontFamily: "siyuanheitichanggui",
+              lineHeight: 1.8,
+              fontFamily: '"Playwrite NZ Guides", cursive',
             }}
           >
-            Những tháng ngày <br />
-            chênh vênh khó khăn
+            Những tháng ngày chênh vênh khó khăn
             <br />
-            Chẳng còn ôm cô đơn
+            Chẳng còn ôm cô đơn một mình
             <br />
-            một mình
-            <br />
-            Bên cạnh nhau <br /> trọn vẹn xây nên gia đình
+            Bên cạnh nhau trọn vẹn xây nên gia đình
           </div>
         </div>
       </div>

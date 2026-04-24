@@ -12,7 +12,7 @@ function CountdownSection() {
 
   useEffect(() => {
     // 12h ngày 18/05/2026
-    const targetDate = new Date("2026-05-18T12:00:00").getTime();
+    const targetDate = new Date("2026-05-18T11:00:00").getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();

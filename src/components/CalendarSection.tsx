@@ -368,7 +368,7 @@ function CalendarSection() {
           >
             Thứ Hai, Ngày 18 Tháng 5, 2026
             <br />
-            12:00 PM
+            11:00 AM
           </div>
         </div>
       </div>

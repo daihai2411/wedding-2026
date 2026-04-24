@@ -71,7 +71,7 @@ function CalendarSection() {
           <div className="can-wrap2">
             <div className="can-top">
               <div className="can-size" style={{ color: "rgb(242, 119, 149)" }}>
-                18 <span>/</span> 06
+                18 <span>/</span> 05
               </div>
             </div>
             <div className="can-main">
@@ -92,6 +92,10 @@ function CalendarSection() {
                   2026
                 </div>
                 <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
                   <li className="heart-ani">
                     <span style={{ color: "rgb(242, 119, 149)" }}>1</span>{" "}
                     <i
@@ -302,6 +306,13 @@ function CalendarSection() {
                       style={{ color: "rgb(242, 119, 149)" }}
                     />
                   </li>
+                  <li className="heart-ani">
+                    <span style={{ color: "rgb(242, 119, 149)" }}>31</span>{" "}
+                    <i
+                      className="iconfont icon-tuoyuanxing"
+                      style={{ color: "rgb(242, 119, 149)" }}
+                    />
+                  </li>
                 </ul>
               </div>
             </div>
@@ -355,7 +366,7 @@ function CalendarSection() {
               fontFamily: "siyuanheitichanggui",
             }}
           >
-            Thứ Năm, Ngày 18 Tháng 6, 2026
+            Thứ Hai, Ngày 18 Tháng 5, 2026
             <br />
             12:00 PM
           </div>
@@ -510,28 +521,29 @@ function CalendarSection() {
           <div
             style={{
               backgroundColor: "white",
-              borderRadius: "1rem",
-              width: "100%",
-              maxWidth: "10rem",
-              padding: "0.7rem 0.3rem",
+              borderRadius: "15px",
+              width: "95%",
+              maxWidth: "13rem",
+              padding: "0.6rem 0.2rem",
               boxShadow:
                 "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
               animation: "modalFadeIn 0.3s ease-out",
             }}
             onClick={(e) => e.stopPropagation()}
           >
-            <div style={{ textAlign: "center", marginBottom: "0.5rem" }}>
+            <div style={{ textAlign: "center", marginBottom: "0.4rem" }}>
               <h3
                 style={{
-                  fontSize: "0.5rem",
+                  fontSize: "0.55rem",
                   color: "#1a202c",
                   margin: "0 0 0.1rem 0",
                   fontFamily: "'Playfair Display', serif",
+                  fontWeight: "bold",
                 }}
               >
                 Hộp Quà Yêu Thương
               </h3>
-              <p style={{ fontSize: "0.32rem", color: "#718096", margin: 0 }}>
+              <p style={{ fontSize: "0.34rem", color: "#718096", margin: 0 }}>
                 Quét QR code để gửi yêu thương trực tiếp tới:
               </p>
             </div>
@@ -550,7 +562,7 @@ function CalendarSection() {
               >
                 <span
                   style={{
-                    fontSize: "0.32rem",
+                    fontSize: "0.36rem",
                     color: "#4a6491",
                     fontWeight: "bold",
                     textAlign: "center",
@@ -563,7 +575,7 @@ function CalendarSection() {
                 <div
                   style={{
                     border: "1px solid #e2e8f0",
-                    borderRadius: "0.5rem",
+                    borderRadius: "0.4rem",
                     padding: "0.1rem",
                     backgroundColor: "#f8fafc",
                     flex: 1,
@@ -581,7 +593,7 @@ function CalendarSection() {
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      marginBottom: "0.15rem",
+                      marginBottom: "0.1rem",
                       cursor: "zoom-in",
                     }}
                     onClick={() => setZoomedImage("/images/qr-hongquan.jpg")}
@@ -593,7 +605,7 @@ function CalendarSection() {
                         width: "100%",
                         height: "100%",
                         objectFit: "contain",
-                        borderRadius: "0.1rem",
+                        borderRadius: "0.05rem",
                       }}
                     />
                   </div>
@@ -606,7 +618,7 @@ function CalendarSection() {
                       borderRadius: "1rem",
                       padding: "0.1rem",
                       width: "100%",
-                      fontSize: "0.2rem",
+                      fontSize: "0.26rem",
                       fontWeight: "bold",
                       cursor: "pointer",
                     }}
@@ -622,7 +634,7 @@ function CalendarSection() {
               >
                 <span
                   style={{
-                    fontSize: "0.32rem",
+                    fontSize: "0.36rem",
                     color: "rgb(242, 119, 149)",
                     fontWeight: "bold",
                     textAlign: "center",
@@ -635,7 +647,7 @@ function CalendarSection() {
                 <div
                   style={{
                     border: "1px solid #fee2e2",
-                    borderRadius: "0.5rem",
+                    borderRadius: "0.4rem",
                     padding: "0.1rem",
                     backgroundColor: "#fffcfc",
                     flex: 1,
@@ -653,7 +665,7 @@ function CalendarSection() {
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      marginBottom: "0.15rem",
+                      marginBottom: "0.1rem",
                       cursor: "zoom-in",
                     }}
                     onClick={() => setZoomedImage("/images/qr-minhthin.jpg")}
@@ -665,7 +677,7 @@ function CalendarSection() {
                         width: "100%",
                         height: "100%",
                         objectFit: "contain",
-                        borderRadius: "0.1rem",
+                        borderRadius: "0.05rem",
                       }}
                     />
                   </div>
@@ -679,7 +691,7 @@ function CalendarSection() {
                       borderRadius: "1rem",
                       padding: "0.1rem",
                       width: "100%",
-                      fontSize: "0.2rem",
+                      fontSize: "0.26rem",
                       fontWeight: "bold",
                       cursor: "pointer",
                     }}

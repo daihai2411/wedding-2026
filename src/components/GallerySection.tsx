@@ -56,105 +56,28 @@ function GallerySection() {
         </div>
       </div>
 
+      {/* Ảnh trang trí chữ Hỷ thay thế cho văn bản tiếng Trung */}
       <div
-        className="ele-text ele-text-long eles"
-        data-id="copy-1735294492751"
-        data-type="text"
-        data-custom-type="text"
-        data-layername="文本58"
-        data-signsort="15"
-        data-signtype=""
-        data-pid=""
-        data-sign="true"
-        data-namesign=""
-        data-copyindex="44"
+        className="ele-img eles"
+        data-id="gallery-deco-hỷ"
         style={{
-          left: "8.2rem",
-          top: "58.2933rem",
-          width: "0.77333rem",
-          height: "auto",
-          transform: "rotate(0deg)",
+          left: "6.6rem",
+          top: "58rem",
+          width: "3rem",
+          height: "3.8rem",
+          zIndex: 10,
         }}
       >
-        <div
-          className="ani-wrap"
-          style={{
-            borderRadius: "0rem",
-            borderColor: "rgb(153, 153, 153)",
-            borderStyle: "solid",
-            borderWidth: "0rem",
-          }}
-        >
-          <div
-            data-link=""
-            data-hash=""
-            className="text-common text-editor siyuanheitichanggui"
+        <div className="ani-wrap">
+          <img
+            src="/images/gallery-deco.png"
+            alt="Chữ Hỷ"
             style={{
-              opacity: 1,
-              letterSpacing: "0.01rem",
-              writingMode: "horizontal-tb",
-              padding: "0.13333rem",
-              textIndent: "0rem",
-              fontSize: "0.42667rem",
-              color: "rgb(62, 56, 56)",
-              textAlign: "center",
-              lineHeight: 1.5,
-              fontFamily: "siyuanheitichanggui",
+              width: "100%",
+              height: "100%",
+              objectFit: "contain",
             }}
-          >
-            星河滚烫
-          </div>
-        </div>
-      </div>
-
-      <div
-        className="ele-text ele-text-long eles"
-        data-id="copy-1735288888334"
-        data-type="text"
-        data-custom-type="text"
-        data-layername="文本60"
-        data-signsort="16"
-        data-signtype=""
-        data-pid=""
-        data-sign="true"
-        data-namesign=""
-        data-copyindex="45"
-        style={{
-          left: "7.25333rem",
-          top: "59.0667rem",
-          width: "0.77333rem",
-          height: "auto",
-          transform: "rotate(0deg)",
-        }}
-      >
-        <div
-          className="ani-wrap"
-          style={{
-            borderRadius: "0rem",
-            borderColor: "rgb(153, 153, 153)",
-            borderStyle: "solid",
-            borderWidth: "0rem",
-          }}
-        >
-          <div
-            data-link=""
-            data-hash=""
-            className="text-common text-editor siyuanheitichanggui"
-            style={{
-              opacity: 1,
-              letterSpacing: "0.01rem",
-              writingMode: "horizontal-tb",
-              padding: "0.13333rem",
-              textIndent: "0rem",
-              fontSize: "0.42667rem",
-              color: "rgb(62, 56, 56)",
-              textAlign: "center",
-              lineHeight: 1.5,
-              fontFamily: "siyuanheitichanggui",
-            }}
-          >
-            你是人间理想
-          </div>
+          />
         </div>
       </div>
 

@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import musicFile from "../assets/50-nam-ve-sau.mp3";
 
 function MusicPlayer() {
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
   const fadeInterval = useRef<any>(null);
 
@@ -27,18 +27,13 @@ function MusicPlayer() {
 
   useEffect(() => {
     const handleInteraction = () => {
-      if (audioRef.current) {
-        if (audioRef.current.muted) {
-          audioRef.current.muted = false;
-          audioRef.current.volume = 0;
+      if (audioRef.current && audioRef.current.paused) {
+        audioRef.current.muted = false;
+        audioRef.current.volume = 0;
+        audioRef.current.play().then(() => {
+          setIsPlaying(true);
           fadeVolume(1);
-        }
-        if (audioRef.current.paused) {
-          audioRef.current.play().then(() => {
-            setIsPlaying(true);
-            fadeVolume(1);
-          });
-        }
+        }).catch(err => console.log('Bỏ qua autoplay', err));
         cleanup();
       }
     };
@@ -59,14 +54,7 @@ function MusicPlayer() {
       once: true,
     });
 
-    // Attempt muted autoplay immediately
-    if (audioRef.current) {
-      audioRef.current.muted = true;
-      audioRef.current.play().catch(() => {
-        // If even muted autoplay is blocked, wait for interaction
-        setIsPlaying(false);
-      });
-    }
+
 
     return cleanup;
   }, []);
@@ -106,8 +94,6 @@ function MusicPlayer() {
         src={`${musicFile}#t=73`}
         id="music"
         loop
-        muted
-        autoPlay
       />
     </div>
   );

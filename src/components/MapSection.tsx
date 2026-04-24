@@ -217,7 +217,7 @@ function MapSection() {
               fontSize: "0.28rem",
               color: "rgb(62, 56, 56)",
               textAlign: "right",
-              lineHeight: 2.2,
+              lineHeight: 2,
               fontFamily: "siyuanheitichanggui",
             }}
           >
@@ -364,7 +364,7 @@ function MapSection() {
         data-copyindex="50"
         style={{
           left: "0.37333rem",
-          top: "118.853rem",
+          top: "116.853rem",
           width: "8.74667rem",
           height: "auto",
           transform: "rotate(0deg)",
@@ -382,18 +382,18 @@ function MapSection() {
           <div
             data-link=""
             data-hash=""
-            className="text-common text-editor siyuanheitichanggui"
+            className="text-common text-editor ChillHuoFangSong"
             style={{
               opacity: 1,
               letterSpacing: "0.01rem",
               writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.34rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.36rem",
+              color: "rgb(242, 119, 149)",
               textAlign: "left",
-              lineHeight: 1.5,
-              fontFamily: "siyuanheitichanggui",
+              lineHeight: 2,
+              fontFamily: "ChillHuoFangSong",
             }}
           >
             Trống Đồng Palace Cảnh Hồ <br /> 173B Trường Chinh, quận Thanh Xuân,
@@ -416,7 +416,7 @@ function MapSection() {
         data-copyindex="53"
         style={{
           left: "0.37333rem",
-          top: "116.8rem",
+          top: "119rem",
           width: "5.49333rem",
           height: "auto",
           transform: "rotate(0deg)",
@@ -444,8 +444,8 @@ function MapSection() {
               fontSize: "0.28rem",
               color: "rgb(62, 56, 56)",
               textAlign: "left",
-              lineHeight: 1.2,
-              fontFamily: "poiretone",
+              lineHeight: 2,
+              fontFamily: "siyuanheitichanggui",
             }}
           >
             Tay đan vào bàn tay của nhau

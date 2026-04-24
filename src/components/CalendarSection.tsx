@@ -1,4 +1,43 @@
+import React, { useState } from "react";
+
 function CalendarSection() {
+  const [showModal, setShowModal] = useState(false);
+  const [zoomedImage, setZoomedImage] = useState<string | null>(null);
+
+  const handleCopy = (text: string, label: string) => {
+    if (navigator.clipboard && window.isSecureContext) {
+      navigator.clipboard
+        .writeText(text)
+        .then(() => {
+          alert(`Đã sao chép số tài khoản ${label}!`);
+        })
+        .catch((err) => {
+          console.error("Lỗi sao chép: ", err);
+          fallbackCopyTextToClipboard(text, label);
+        });
+    } else {
+      fallbackCopyTextToClipboard(text, label);
+    }
+  };
+
+  const fallbackCopyTextToClipboard = (text: string, label: string) => {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    textArea.style.position = "fixed";
+    textArea.style.left = "-999999px";
+    textArea.style.top = "-999999px";
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    try {
+      document.execCommand("copy");
+      alert(`Đã sao chép số tài khoản ${label}!`);
+    } catch (err) {
+      console.error("Fallback: Lỗi sao chép", err);
+    }
+    document.body.removeChild(textArea);
+  };
+
   return (
     <>
       <div
@@ -322,76 +361,12 @@ function CalendarSection() {
           </div>
         </div>
       </div>
-
-      <div
-        className="ele-text ele-text-long eles"
-        data-id="copy-1735295872157"
-        data-type="text"
-        data-custom-type="text"
-        data-layername="文本75"
-        data-signsort="35"
-        data-signtype=""
-        data-pid=""
-        data-sign="true"
-        data-namesign=""
-        data-copyindex="47"
-        style={{
-          left: "0.61333rem",
-          top: "144.48rem",
-          width: "8.77333rem",
-          height: "auto",
-          transform: "rotate(0deg)",
-        }}
-      >
-        <div
-          className="ani-wrap"
-          style={{
-            borderRadius: "0rem",
-            borderColor: "rgb(153, 153, 153)",
-            borderStyle: "solid",
-            borderWidth: "0rem",
-          }}
-        >
-          <div
-            data-link=""
-            data-hash=""
-            className="text-common text-editor siyuanheitichanggui"
-            style={{
-              opacity: 1,
-              letterSpacing: "0.01rem",
-              writingMode: "horizontal-tb",
-              padding: "0.13333rem",
-              textIndent: "0rem",
-              fontSize: "0.34rem",
-              color: "rgb(62, 56, 56)",
-              textAlign: "left",
-              lineHeight: 2,
-              fontFamily: "siyuanheitichanggui",
-            }}
-          >
-            1请提前和我确定到场人数，方便安排座位（可以填写请柬中的宾客回执哦～）
-            <br />
-            <br />
-            2如果临时有事无法到场，请提前几天告诉我们喔～
-            <br />
-            <br />
-            3需要住宿的朋友请提前和我沟通～
-            <br />
-            <br />
-            4如果没时间或已经有其它安排不能到场也直接和我说哟，不用有顾虑，我们来日方长～
-            <br />
-            <br />
-            5主打快乐吃席，婚礼当天可能无暇照顾到所有人，若有招待不周，请多多包涵，我们婚礼见
-          </div>
-        </div>
-      </div>
-
       <div
         className="ele-text ele-text-long eles"
         data-id="copy-1735296751124"
         data-type="text"
         data-custom-type="text"
-        data-layername="文本76"
+        data-layername="Gửi mừng cưới"
         data-signsort="34"
         data-signtype=""
         data-pid=""
@@ -404,594 +379,379 @@ function CalendarSection() {
           width: "10rem",
           height: "auto",
           transform: "rotate(0deg)",
+          cursor: "pointer",
         }}
+        onClick={() => setShowModal(true)}
       >
         <div
           className="ani-wrap"
           style={{
-            borderRadius: "0rem",
-            borderColor: "rgb(153, 153, 153)",
-            borderStyle: "solid",
-            borderWidth: "0rem",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
           }}
         >
+          <img
+            src="/images/wedding_gift_envelope.png"
+            alt="Gửi mừng cưới"
+            className="gift-envelope-img float-ani"
+            style={{
+              width: "4.5rem",
+              height: "auto",
+              filter: "drop-shadow(0px 8px 15px rgba(0,0,0,0.08))",
+            }}
+          />
           <div
             data-link=""
             data-hash=""
-            className="text-common text-editor meiescript"
+            className="text-common text-editor"
             style={{
               opacity: 1,
-              letterSpacing: "0rem",
+              letterSpacing: "0.02rem",
               writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.93333rem",
+              fontSize: "0.65rem",
               color: "rgb(242, 119, 149)",
               textAlign: "center",
               lineHeight: 1,
               fontFamily: "meiescript",
+              fontWeight: "normal",
             }}
           >
-            ·Tips·
+            ·Gửi mừng cưới·
           </div>
         </div>
       </div>
 
+      {/* Phần Thank You Image với Text đè lên */}
       <div
-        className="ele-text ele-text-long eles"
-        data-id="copy-1735291107721"
-        data-type="text"
-        data-custom-type="text"
-        data-layername="文本77"
-        data-signsort="36"
-        data-signtype=""
-        data-pid=""
-        data-sign="true"
-        data-namesign=""
-        data-copyindex="57"
         style={{
+          position: "absolute",
           left: "0rem",
-          top: "156.667rem",
+          top: "150rem",
           width: "10rem",
-          height: "auto",
-          transform: "rotate(0deg)",
+          height: "12rem",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "flex-end",
+          paddingBottom: "1.8rem",
+          overflow: "hidden",
         }}
       >
-        <div
-          className="ani-wrap"
-          style={{
-            borderRadius: "0rem",
-            borderColor: "rgb(153, 153, 153)",
-            borderStyle: "solid",
-            borderWidth: "0rem",
-          }}
-        >
-          <div
-            data-link=""
-            data-hash=""
-            className="text-common text-editor ChillHuoFangSong"
+        {/* Lớp nền ảnh */}
+        <div style={{ position: "absolute", inset: 0, zIndex: 1 }}>
+          <img
+            src="/images/thankyou.jpg"
+            alt="Thank You"
             style={{
-              opacity: 1,
-              letterSpacing: "0rem",
-              writingMode: "horizontal-tb",
-              padding: "0.13333rem",
-              textIndent: "0rem",
-              fontSize: "0.53333rem",
-              color: "rgb(242, 119, 149)",
-              textAlign: "center",
-              lineHeight: 1.6,
-              fontFamily: "ChillHuoFangSong",
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
             }}
-          >
-            宾·客·回·执
-            <br />/
-          </div>
+          />
+          {/* Hiệu ứng mờ dần ở đỉnh và đáy */}
+          <div
+            style={{
+              position: "absolute",
+              inset: 0,
+              background:
+                "linear-gradient(to bottom, white 0%, transparent 15%, transparent 85%, white 100%)",
+            }}
+          ></div>
         </div>
-      </div>
 
-      <div
-        className="ele-form f-input eles require"
-        data-id="1735292849332"
-        data-type="formInput"
-        data-custom-type="formInput"
-        data-layername="输入框"
-        data-signsort="1"
-        data-pid=""
-        data-inputtype="text"
-        style={{
-          left: "1.86667rem",
-          top: "159.591rem",
-          width: "6.26667rem",
-          height: "1.06667rem",
-          transform: "rotate(0deg)",
-          boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
-          opacity: 1,
-        }}
-      >
+        {/* Lớp văn bản đè lên */}
         <div
-          className="ani-wrap"
           style={{
-            backgroundColor: "rgb(255, 255, 255)",
-            borderRadius: "0rem",
-            borderWidth: "0.02667rem",
-            borderStyle: "solid",
-            borderColor: "rgb(242, 119, 149)",
-          }}
-        >
-          <div className="f-input-wrap">
-            <span className="require">*</span>{" "}
-            <input
-              type="text"
-              placeholder="姓名"
-              maxLength={100}
-              style={{
-                opacity: 1,
-                fontSize: "0.37333rem",
-                color: "rgb(242, 119, 149)",
-                fontFamily: "微软雅黑",
-                WebkitTextFillColor: "rgb(242, 119, 149)",
-              }}
-            />
-          </div>
-        </div>
-      </div>
-
-      <div
-        className="ele-form f-input eles require"
-        data-id="1735287484608"
-        data-type="formInput"
-        data-custom-type="formInput"
-        data-layername="输入框"
-        data-signsort="1"
-        data-pid=""
-        data-inputtype="text"
-        style={{
-          left: "1.86667rem",
-          top: "161.591rem",
-          width: "6.26667rem",
-          height: "1.06667rem",
-          transform: "rotate(0deg)",
-          boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
-          opacity: 1,
-        }}
-      >
-        <div
-          className="ani-wrap"
-          style={{
-            backgroundColor: "rgb(255, 255, 255)",
-            borderRadius: "0rem",
-            borderWidth: "0.02667rem",
-            borderStyle: "solid",
-            borderColor: "rgb(242, 119, 149)",
-          }}
-        >
-          <div className="f-input-wrap">
-            <span className="require">*</span>{" "}
-            <input
-              type="text"
-              placeholder="出席人数"
-              maxLength={10000}
-              style={{
-                opacity: 1,
-                fontSize: "0.37333rem",
-                color: "rgb(242, 119, 149)",
-                fontFamily: "微软雅黑",
-                WebkitTextFillColor: "rgb(242, 119, 149)",
-              }}
-            />
-          </div>
-        </div>
-      </div>
-
-      <div
-        className="ele-form f-submit eles"
-        data-id="1735290487918"
-        data-type="formSubmit"
-        id="1735290487918"
-        data-custom-type="formSubmit"
-        data-layername="提交按钮"
-        data-signsort="1"
-        data-pid=""
-        data-subtype="allPage"
-        data-succevent="alert"
-        data-succalert="提交成功,感谢您的参与!"
-        data-succurl=""
-        style={{
-          left: "1.86667rem",
-          top: "163.591rem",
-          width: "6.26667rem",
-          height: "1.06667rem",
-          transform: "rotate(0deg)",
-          boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
-        }}
-      >
-        <div
-          className="ani-wrap"
-          style={{
-            backgroundColor: "rgb(242, 119, 149)",
-            borderRadius: "0rem",
-            borderWidth: "0rem",
-            borderStyle: "solid",
-            borderColor: "rgb(153, 153, 153)",
-            opacity: 1,
-            fontSize: "0.42667rem",
-            color: "rgb(255, 255, 255)",
+            position: "relative",
+            zIndex: 2,
+            padding: "0 1rem",
             textAlign: "center",
-            lineHeight: 1,
+            color: "white",
+            textShadow: "0 2px 4px rgba(0,0,0,0.3)",
+            fontFamily: "ChillHuoFangSong",
+            lineHeight: "2",
+            fontSize: "0.36rem",
+            fontWeight: "normal",
+            pointerEvents: "none",
           }}
         >
-          <div className="f-ovh">提交</div>
+          “Hẹn gặp bạn trong ngày hạnh phúc của chúng mình.
+          <br />
+          Rất mong được đón tiếp bạn trong ngày vui đặc biệt này.
+          <br />
+          Bởi sự hiện diện của bạn chính là niềm hạnh phúc trọn vẹn
+          <br />
+          của chúng mình.”
         </div>
       </div>
 
-      <div
-        className="ele-img animated eles"
-        data-id="1735295633915"
-        data-type="image"
-        data-custom-type="image"
-        data-signsort="1"
-        data-pid=""
-        data-imgmattinginfo="[object Object]"
-        data-overturntypenew="0"
-        style={{
-          left: "7.57333rem",
-          top: "109.28rem",
-          width: "0.29333rem",
-          height: "0.29333rem",
-          transform: "rotate(0deg)",
-        }}
-      >
-        <div className="ani-wrap">
-          <div
-            data-link=""
-            data-hash=""
-            className="rotate-wrap"
-            style={{
-              WebkitMaskBoxImageSlice: "0 fill",
-              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
-              borderRadius: "0rem",
-            }}
-          >
-            <div
-              className="img-wrap star-pulse"
-              style={{
-                borderRadius: "0rem",
-                borderWidth: "0rem",
-                borderStyle: "solid",
-                borderColor: "rgb(153, 153, 153)",
-                transform: "none",
-              }}
-            >
-              <img
-                src="/images/20e76f13c8fd4a935306590a0cd54c80.png"
-                alt=""
-                style={{
-                  opacity: 1,
-                  left: "0px",
-                  height: "10.9999px",
-                  width: "11.0003px",
-                }}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className="ele-img animated eles"
-        data-id="copy-1735296508198"
-        data-type="image"
-        data-custom-type="image"
-        data-signsort="1"
-        data-pid=""
-        data-imgmattinginfo="[object Object]"
-        data-overturntypenew="0"
-        data-copyindex="62"
-        style={{
-          left: "7.73333rem",
-          top: "107.653rem",
-          width: "0.8rem",
-          height: "0.8rem",
-          transform: "rotate(0deg)",
-        }}
-      >
-        <div className="ani-wrap">
-          <div
-            data-link=""
-            data-hash=""
-            className="rotate-wrap"
-            style={{
-              WebkitMaskBoxImageSlice: "0 fill",
-              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
-              borderRadius: "0rem",
-            }}
-          >
-            <div
-              className="img-wrap star-pulse"
-              style={{
-                borderRadius: "0rem",
-                borderWidth: "0rem",
-                borderStyle: "solid",
-                borderColor: "rgb(153, 153, 153)",
-                transform: "none",
-              }}
-            >
-              <img
-                src="/images/64cff28b0842ee1f483cbaac1d778507.png"
-                alt=""
-                style={{
-                  opacity: 1,
-                  left: "0px",
-                  height: "30px",
-                  width: "30px",
-                }}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className="ele-img animated eles"
-        data-id="copy-1735296166789"
-        data-type="image"
-        data-custom-type="image"
-        data-signsort="1"
-        data-pid=""
-        data-imgmattinginfo="[object Object]"
-        data-overturntypenew="0"
-        data-copyindex="63"
-        style={{
-          left: "8.69333rem",
-          top: "109.013rem",
-          width: "0.53333rem",
-          height: "0.53333rem",
-          transform: "rotate(0deg)",
-        }}
-      >
-        <div className="ani-wrap">
-          <div
-            data-link=""
-            data-hash=""
-            className="rotate-wrap"
-            style={{
-              WebkitMaskBoxImageSlice: "0 fill",
-              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
-              borderRadius: "0rem",
-            }}
-          >
-            <div
-              className="img-wrap star-pulse"
-              style={{
-                borderRadius: "0rem",
-                borderWidth: "0rem",
-                borderStyle: "solid",
-                borderColor: "rgb(153, 153, 153)",
-                transform: "none",
-              }}
-            >
-              <img
-                src="/images/58db1ae3d8029e769434f0b809f88ce4.png"
-                alt=""
-                style={{
-                  opacity: 1,
-                  left: "0px",
-                  height: "19.9999px",
-                  width: "20px",
-                }}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className="ele-img animated eles"
-        data-id="copy-1735288843821"
-        data-type="image"
-        data-custom-type="image"
-        data-signsort="1"
-        data-pid=""
-        data-imgmattinginfo="[object Object]"
-        data-overturntypenew="0"
-        data-copyindex="7"
-        style={{
-          left: "7.49333rem",
-          top: "86.88rem",
-          width: "2.21333rem",
-          height: "2.66667rem",
-          transform: "rotate(0deg)",
-        }}
-      >
-        <div className="ani-wrap">
-          <div
-            data-link=""
-            data-hash=""
-            className="rotate-wrap"
-            style={{
-              WebkitMaskBoxImageSlice: "0 fill",
-              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
-              borderRadius: "0rem",
-            }}
-          >
-            <div
-              className="img-wrap"
-              style={{
-                borderRadius: "0rem",
-                borderWidth: "0rem",
-                borderStyle: "solid",
-                borderColor: "rgb(153, 153, 153)",
-                transform: "none",
-              }}
-            >
-              <img
-                src="/images/0a26e8b52bca635cb508463577240952.png"
-                alt=""
-                style={{
-                  opacity: 1,
-                  top: "-0.339px",
-                  width: "82.9999px",
-                  height: "100.689px",
-                }}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className="ele-img animated eles"
-        data-id="1735297182796"
-        data-type="image"
-        data-custom-type="image"
-        data-signsort="1"
-        data-pid=""
-        data-imgmattinginfo="[object Object]"
-        data-overturntypenew="0"
-        style={{
-          left: "4.49333rem",
-          top: "154.734rem",
-          width: "1.01333rem",
-          height: "0.96rem",
-          transform: "rotate(0deg)",
-        }}
-      >
-        <div className="ani-wrap">
-          <div
-            data-link=""
-            data-hash=""
-            className="rotate-wrap"
-            style={{
-              WebkitMaskBoxImageSlice: "0 fill",
-              boxShadow: "rgb(153, 153, 153) 0px 0px 0px",
-              borderRadius: "0rem",
-            }}
-          >
-            <div
-              className="img-wrap"
-              style={{
-                borderRadius: "0rem",
-                borderWidth: "0rem",
-                borderStyle: "solid",
-                borderColor: "rgb(153, 153, 153)",
-                transform: "none",
-              }}
-            >
-              <img
-                src="/images/934d12271a17ede21c997f65e6e5e6a2.png"
-                alt=""
-                style={{
-                  opacity: 1,
-                  left: "-0.091px",
-                  height: "36px",
-                  width: "38.1783px",
-                }}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* <div
-        className="ele-text ele-text-long eles"
-        data-id="copy-1735290005491"
-        data-type="text"
-        data-custom-type="text"
-       data-layername="文本86"
-       data-signsort="20"
-       data-signtype=""
-       data-pid=""
-       data-sign="true"
-       data-namesign=""
-       data-copyindex="53"
-        style={{
-          left: "0.24172rem",
-          top: "72.7733rem",
-          width: "5.49333rem",
-          height: "auto",
-          transform: "rotate(0deg)"
-        }}
-      >
+      {showModal && (
         <div
-          className="ani-wrap"
           style={{
-            borderRadius: "0rem",
-            borderColor: "rgb(153, 153, 153)",
-            borderStyle: "solid",
-            borderWidth: "0rem"
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100vw",
+            height: "100vh",
+            backgroundColor: "rgba(0, 0, 0, 0.6)",
+            backdropFilter: "blur(5px)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 10000,
+            padding: "1rem",
           }}
+          onClick={() => setShowModal(false)}
         >
           <div
-            data-link=""
-            data-hash=""
-            className="text-common text-editor poiretone"
             style={{
-              opacity: 1,
-              letterSpacing: "0rem",
-              writingMode: "horizontal-tb",
-              padding: "0.13333rem",
-              textIndent: "0rem",
-              fontSize: "0.32rem",
-              color: "rgb(62, 56, 56)",
-              textAlign: "left",
-              lineHeight: 1.3,
-              fontFamily: "poiretone"
+              backgroundColor: "white",
+              borderRadius: "1rem",
+              width: "100%",
+              maxWidth: "10rem",
+              padding: "0.7rem 0.3rem",
+              boxShadow:
+                "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+              animation: "modalFadeIn 0.3s ease-out",
             }}
+            onClick={(e) => e.stopPropagation()}
           >
-            "I love you more than <br />yesterday, but not as much as<br />tomorrow."<br /><br />|</div>
-        </div>
-      </div> */}
+            <div style={{ textAlign: "center", marginBottom: "0.5rem" }}>
+              <h3
+                style={{
+                  fontSize: "0.5rem",
+                  color: "#1a202c",
+                  margin: "0 0 0.1rem 0",
+                  fontFamily: "'Playfair Display', serif",
+                }}
+              >
+                Hộp Quà Yêu Thương
+              </h3>
+              <p style={{ fontSize: "0.32rem", color: "#718096", margin: 0 }}>
+                Quét QR code để gửi yêu thương trực tiếp tới:
+              </p>
+            </div>
 
-      <div
-        className="ele-text ele-text-long eles"
-        data-id="copy-1735288648619"
-        data-type="text"
-        data-custom-type="text"
-        data-layername="文本87"
-        data-signsort="37"
-        data-signtype=""
-        data-pid=""
-        data-sign="true"
-        data-namesign=""
-        data-copyindex="56"
-        style={{
-          left: "0rem",
-          top: "167.227rem",
-          width: "10rem",
-          height: "auto",
-          transform: "rotate(0deg)",
-        }}
-      >
-        <div
-          className="ani-wrap"
-          style={{
-            borderRadius: "0rem",
-            borderColor: "rgb(153, 153, 153)",
-            borderStyle: "solid",
-            borderWidth: "0rem",
-          }}
-        >
-          <div
-            data-link=""
-            data-hash=""
-            className="text-common text-editor ChillHuoFangSong"
-            style={{
-              opacity: 1,
-              letterSpacing: "0.01rem",
-              writingMode: "horizontal-tb",
-              padding: "0.13333rem",
-              textIndent: "0rem",
-              fontSize: "0.34rem",
-              color: "rgb(62, 56, 56)",
-              textAlign: "center",
-              lineHeight: 2,
-              fontFamily: "ChillHuoFangSong",
-            }}
-          >
-            - THANK YOU -
+            <div
+              style={{
+                display: "flex",
+                gap: "0.15rem",
+                marginBottom: "0.5rem",
+                alignItems: "stretch",
+              }}
+            >
+              {/* Chú rể */}
+              <div
+                style={{ flex: 1, display: "flex", flexDirection: "column" }}
+              >
+                <span
+                  style={{
+                    fontSize: "0.32rem",
+                    color: "#4a6491",
+                    fontWeight: "bold",
+                    textAlign: "center",
+                    display: "block",
+                    marginBottom: "0.15rem",
+                  }}
+                >
+                  Chú rể
+                </span>
+                <div
+                  style={{
+                    border: "1px solid #e2e8f0",
+                    borderRadius: "0.5rem",
+                    padding: "0.1rem",
+                    backgroundColor: "#f8fafc",
+                    flex: 1,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <div
+                    style={{
+                      width: "100%",
+                      aspectRatio: "1/1",
+                      overflow: "hidden",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "0.15rem",
+                      cursor: "zoom-in",
+                    }}
+                    onClick={() => setZoomedImage("/images/qr-hongquan.jpg")}
+                  >
+                    <img
+                      src="/images/qr-hongquan.jpg"
+                      alt="QR Chú rể"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "contain",
+                        borderRadius: "0.1rem",
+                      }}
+                    />
+                  </div>
+                  <button
+                    onClick={() => handleCopy("19037040456017", "chú rể")}
+                    style={{
+                      backgroundColor: "#edf2f7",
+                      color: "#4a6491",
+                      border: "none",
+                      borderRadius: "1rem",
+                      padding: "0.1rem",
+                      width: "100%",
+                      fontSize: "0.2rem",
+                      fontWeight: "bold",
+                      cursor: "pointer",
+                    }}
+                  >
+                    Sao chép số TK
+                  </button>
+                </div>
+              </div>
+
+              {/* Cô dâu */}
+              <div
+                style={{ flex: 1, display: "flex", flexDirection: "column" }}
+              >
+                <span
+                  style={{
+                    fontSize: "0.32rem",
+                    color: "rgb(242, 119, 149)",
+                    fontWeight: "bold",
+                    textAlign: "center",
+                    display: "block",
+                    marginBottom: "0.15rem",
+                  }}
+                >
+                  Cô dâu
+                </span>
+                <div
+                  style={{
+                    border: "1px solid #fee2e2",
+                    borderRadius: "0.5rem",
+                    padding: "0.1rem",
+                    backgroundColor: "#fffcfc",
+                    flex: 1,
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  <div
+                    style={{
+                      width: "100%",
+                      aspectRatio: "1/1",
+                      overflow: "hidden",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      marginBottom: "0.15rem",
+                      cursor: "zoom-in",
+                    }}
+                    onClick={() => setZoomedImage("/images/qr-minhthin.jpg")}
+                  >
+                    <img
+                      src="/images/qr-minhthin.jpg"
+                      alt="QR Cô dâu"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "contain",
+                        borderRadius: "0.1rem",
+                      }}
+                    />
+                  </div>
+
+                  <button
+                    onClick={() => handleCopy("0333892556", "cô dâu")}
+                    style={{
+                      backgroundColor: "#fff5f5",
+                      color: "rgb(242, 119, 149)",
+                      border: "none",
+                      borderRadius: "1rem",
+                      padding: "0.1rem",
+                      width: "100%",
+                      fontSize: "0.2rem",
+                      fontWeight: "bold",
+                      cursor: "pointer",
+                    }}
+                  >
+                    Sao chép số TK
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <button
+              onClick={() => setShowModal(false)}
+              style={{
+                width: "100%",
+                padding: "0.3rem",
+                backgroundColor: "#f7fafc",
+                border: "1px solid #e2e8f0",
+                borderRadius: "0.5rem",
+                color: "#4a5568",
+                fontSize: "0.3rem",
+                fontWeight: "500",
+                cursor: "pointer",
+              }}
+            >
+              Đóng
+            </button>
           </div>
         </div>
-      </div>
+      )}
+
+      {zoomedImage && (
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            width: "100vw",
+            height: "100vh",
+            backgroundColor: "rgba(0, 0, 0, 0.9)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 20000,
+            cursor: "zoom-out",
+            animation: "modalFadeIn 0.2s ease-out",
+          }}
+          onClick={() => setZoomedImage(null)}
+        >
+          <img
+            src={zoomedImage}
+            alt="Zoomed QR"
+            style={{
+              maxWidth: "90%",
+              maxHeight: "90%",
+              borderRadius: "0.5rem",
+              boxShadow: "0 0 30px rgba(255,255,255,0.1)",
+            }}
+          />
+          <div
+            style={{
+              position: "absolute",
+              top: "1rem",
+              right: "1rem",
+              color: "white",
+              fontSize: "0.5rem",
+              fontWeight: "bold",
+            }}
+          >
+            ✕
+          </div>
+        </div>
+      )}
     </>
   );
 }

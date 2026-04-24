@@ -13466,3 +13466,115 @@ button.swiper-pagination-bullet {
   animation: starPulse 2s infinite ease-in-out;
   transform-origin: center;
 }
+/* --- Loading Screen Styles --- */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fffafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 1s ease-out, visibility 1s;
+  overflow: hidden;
+}
+
+.loading-overlay.fade-out {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.falling-hearts-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.falling-heart {
+  position: absolute;
+  top: -50px;
+  animation: fall linear forwards;
+}
+
+.loading-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.loading-heart-main {
+  width: 60px;
+  height: 60px;
+  animation: heartbeat 1.5s infinite ease-in-out;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+.loading-hearts-group {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.loading-heart-small {
+  width: 30px;
+  height: 30px;
+}
+
+.heart-1 { animation: heartbeat 1.5s infinite ease-in-out; }
+.heart-2 { animation: heartbeat 1.5s infinite ease-in-out 0.2s; }
+.heart-3 { animation: heartbeat 1.5s infinite ease-in-out 0.4s; }
+
+
+.intertwined-hearts {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  animation: heartbeat 1.5s infinite ease-in-out;
+}
+
+.heart-main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.heart-sub {
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  filter: drop-shadow(0 0 5px rgba(255, 77, 77, 0.3));
+}
+

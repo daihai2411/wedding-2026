@@ -8,9 +8,12 @@ import CalendarSection from './components/CalendarSection'
 import MusicPlayer from './components/MusicPlayer'
 import ScrollReveal from './components/ScrollReveal'
 
+import LoadingScreen from './components/LoadingScreen'
+
 function App() {
   return (
     <div id="page-list">
+      <LoadingScreen />
       <MusicPlayer />
       <div className="page-item current">
         <div className="page-wrap">

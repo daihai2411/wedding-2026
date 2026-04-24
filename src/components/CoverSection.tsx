@@ -335,7 +335,7 @@ function CoverSection() {
         data-overturntypenew="0"
         style={{
           left: "-0.01rem",
-          top: "-0.01rem",
+          top: "-0.2rem",
           width: "7.14667rem",
           height: "4.61333rem",
           transform: "rotate(0deg)",
@@ -363,7 +363,7 @@ function CoverSection() {
               }}
             >
               <img
-                src="/images/81af1da45eccbdb4ce68a03eecba0586.png"
+                src="/images/04eba43f-98ad-45ba-8ef3-370b25bc260c.png" //81af1da45eccbdb4ce68a03eecba0586
                 alt=""
                 style={{
                   opacity: 1,
@@ -706,7 +706,7 @@ function CoverSection() {
         data-imgmattinginfo="[object Object]"
         data-overturntypenew="0"
         style={{
-          left: "5.17333rem",
+          left: "5.6rem",
           top: "0.63826rem",
           width: "0.88rem",
           height: "0.82667rem",

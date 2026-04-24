@@ -841,7 +841,7 @@ function InvitationSection() {
                 style={{
                   opacity: 1,
                   top: "-0.026px",
-                  width: "383px",
+                  width: "100%",
                   height: "575.055px",
                 }}
               />

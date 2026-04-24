@@ -172,7 +172,7 @@ function GallerySection() {
         data-copyindex="37"
         style={{
           left: "3.41333rem",
-          top: "70.2933rem",
+          top: "70.9rem",
           width: "6.18667rem",
           height: "auto",
           transform: "rotate(0deg)",

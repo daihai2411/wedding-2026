@@ -444,7 +444,7 @@ function CalendarSection() {
         {/* Lớp nền ảnh */}
         <div style={{ position: "absolute", inset: 0, zIndex: 1 }}>
           <img
-            src="/images/thankyou.jpg"
+            src="https://lh3.googleusercontent.com/u/0/d/1pxZQghY2s7BYIYIi0FW95rUZDHxtSASB"
             alt="Thank You"
             style={{
               width: "100%",
@@ -474,7 +474,7 @@ function CalendarSection() {
             textShadow: "0 2px 4px rgba(0,0,0,0.3)",
             fontFamily: "ChillHuoFangSong",
             lineHeight: "2",
-            fontSize: "0.36rem",
+            fontSize: "0.32rem",
             fontWeight: "normal",
             pointerEvents: "none",
           }}

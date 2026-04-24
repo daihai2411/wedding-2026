@@ -189,7 +189,7 @@ function MapSection() {
         data-copyindex="49"
         style={{
           left: "3.09333rem",
-          top: "103.12rem",
+          top: "102.8rem",
           width: "6.64rem",
           height: "auto",
           transform: "rotate(0deg)",

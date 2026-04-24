@@ -61,20 +61,6 @@ const LoadingScreen: React.FC = () => {
                     </div>
                 ))}
             </div>
-            <div className="loading-content">
-                <div className="intertwined-hearts">
-                    <div className="heart-main">
-                        <svg viewBox="0 0 32 32" fill="#ff4d4d">
-                            <path d="M16 28.5L13.6 26.2C5.4 18.8 0 13.9 0 7.9C0 3.5 3.5 0 7.9 0C10.4 0 12.8 1.2 14.3 3.1L16 5.1L17.7 3.1C19.2 1.2 21.6 0 24.1 0C28.5 0 32 3.5 32 7.9C32 13.9 26.6 18.8 18.4 26.3L16 28.5Z" />
-                        </svg>
-                    </div>
-                    <div className="heart-sub">
-                        <svg viewBox="0 0 32 32" fill="#ff8080">
-                            <path d="M16 28.5L13.6 26.2C5.4 18.8 0 13.9 0 7.9C0 3.5 3.5 0 7.9 0C10.4 0 12.8 1.2 14.3 3.1L16 5.1L17.7 3.1C19.2 1.2 21.6 0 24.1 0C28.5 0 32 3.5 32 7.9C32 13.9 26.6 18.8 18.4 26.3L16 28.5Z" />
-                        </svg>
-                    </div>
-                </div>
-            </div>
         </div>
     );
 };

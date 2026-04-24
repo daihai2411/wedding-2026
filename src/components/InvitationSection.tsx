@@ -130,7 +130,7 @@ function InvitationSection() {
             >
               <img
                 // src="/images/d5acf824c26462c40e5e30fcc9ae0036.jpeg"
-                src="/images/fbb8e7c3e3b705f337788e9ba13986a2.jpg"
+                src="https://lh3.googleusercontent.com/u/0/d/1F6edBwi8qLBzbMXlbJgocMiYSEFZD0U6"
                 alt="Ảnh từ Google Drive"
                 style={{
                   opacity: 1,
@@ -653,11 +653,10 @@ function InvitationSection() {
               letterSpacing: "0.01rem",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.34rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.3rem",
               textAlign: "center",
               lineHeight: 2,
-              fontFamily: "siyuanheitichanggui",
+              fontFamily: '"Playwrite NO", cursive',
             }}
           >
             Chào bạn, chúng tôi sắp kết hôn
@@ -701,11 +700,10 @@ function InvitationSection() {
               letterSpacing: "0.01",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.34rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.3rem",
               textAlign: "center",
-              lineHeight: 2.2,
-              fontFamily: "siyuanheitichanggui",
+              lineHeight: 2,
+              fontFamily: '"Playwrite NO", cursive',
             }}
           >
             18/05/2026
@@ -741,11 +739,10 @@ function InvitationSection() {
               letterSpacing: "0.01",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.34rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.3rem",
               textAlign: "center",
-              lineHeight: 2.2,
-              fontFamily: "siyuanheitichanggui",
+              lineHeight: 2,
+              fontFamily: '"Playwrite NO", cursive',
             }}
           >
             Lâu rồi không gặp, <br /> hẹn gặp lại ở đám cưới của chúng tôi

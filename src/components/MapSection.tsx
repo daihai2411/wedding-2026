@@ -76,9 +76,9 @@ function MapSection() {
         data-namesign=""
         data-copyindex="46"
         style={{
-          left: "0.42667rem",
+          left: "0.1rem",
           top: "139.547rem",
-          width: "6.13333rem",
+          width: "100%",
           height: "auto",
           transform: "rotate(0deg)",
         }}
@@ -102,18 +102,19 @@ function MapSection() {
               writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.34rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.3rem",
               textAlign: "left",
-              lineHeight: 2,
-              fontFamily: "siyuanheitichanggui",
+              lineHeight: 1.8,
+              fontFamily: '"Playwrite NZ Guides", cursive',
             }}
           >
-            从此
+            Tay đan vào bàn tay của nhau
             <br />
-            有人问我粥可温
+            Trong yên lặng nép khẽ mái đầu
             <br />
-            有人与我共黄昏
+            Khoảnh khắc đó có lẽ chính là đã trải qua
+            <br />
+            Trọn đời có nhau
           </div>
         </div>
       </div>
@@ -387,11 +388,11 @@ function MapSection() {
               writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.36rem",
               color: "rgb(242, 119, 149)",
+              fontSize: "0.3rem",
               textAlign: "left",
               lineHeight: 2,
-              fontFamily: "ChillHuoFangSong",
+              fontFamily: '"Playwrite NO", cursive',
             }}
           >
             Trống Đồng Palace Cảnh Hồ <br /> 173B Trường Chinh, quận Thanh Xuân,
@@ -414,7 +415,7 @@ function MapSection() {
         data-copyindex="53"
         style={{
           left: "0.1rem",
-          top: "119rem",
+          top: "118.7rem",
           width: "100%",
           height: "auto",
           transform: "rotate(0deg)",
@@ -445,13 +446,13 @@ function MapSection() {
               fontFamily: '"Playwrite NZ Guides", cursive',
             }}
           >
-            Tay đan vào bàn tay của nhau
+            Nguyện cầu đến năm mươi năm về sau
             <br />
-            Trong yên lặng nép khẽ mái đầu
+            Được gắn bó không xa rời nhau
             <br />
-            Khoảnh khắc đó có lẽ chính là đã trải qua
+            Dù mái tóc khi ấy bạc phơ
             <br />
-            Trọn đời có nhau
+            Thì mình vẫn nói những câu thương nhớ
           </div>
         </div>
       </div>

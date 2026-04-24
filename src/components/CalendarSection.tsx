@@ -359,11 +359,10 @@ function CalendarSection() {
               writingMode: "horizontal-tb",
               padding: "0.13333rem",
               textIndent: "0rem",
-              fontSize: "0.34rem",
-              color: "rgb(62, 56, 56)",
+              fontSize: "0.3rem",
               textAlign: "center",
-              lineHeight: 2.2,
-              fontFamily: "siyuanheitichanggui",
+              lineHeight: 2,
+              fontFamily: '"Playwrite NO", cursive',
             }}
           >
             Thứ Hai, Ngày 18 Tháng 5, 2026
@@ -448,7 +447,7 @@ function CalendarSection() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "flex-end",
-          paddingBottom: "1.8rem",
+          paddingBottom: "1.1rem",
           overflow: "hidden",
         }}
       >
@@ -483,9 +482,9 @@ function CalendarSection() {
             textAlign: "center",
             color: "white",
             textShadow: "0 2px 4px rgba(0,0,0,0.3)",
-            fontFamily: "ChillHuoFangSong",
-            lineHeight: "2",
-            fontSize: "0.32rem",
+            lineHeight: 2,
+            fontSize: "0.26rem",
+            fontFamily: '"Playwrite NO", cursive',
             fontWeight: "normal",
             pointerEvents: "none",
           }}
@@ -537,13 +536,13 @@ function CalendarSection() {
                   fontSize: "0.55rem",
                   color: "#1a202c",
                   margin: "0 0 0.1rem 0",
-                  fontFamily: "'Playfair Display', serif",
+                  fontFamily: '"Playwrite NO", cursive',
                   fontWeight: "bold",
                 }}
               >
                 Hộp Quà Yêu Thương
               </h3>
-              <p style={{ fontSize: "0.34rem", color: "#718096", margin: 0 }}>
+              <p style={{ fontSize: "0.34rem", color: "#718096", margin: 0, fontFamily: '"Playwrite NO", cursive' }}>
                 Quét QR code để gửi yêu thương trực tiếp tới:
               </p>
             </div>
@@ -568,6 +567,7 @@ function CalendarSection() {
                     textAlign: "center",
                     display: "block",
                     marginBottom: "0.15rem",
+                    fontFamily: '"Playwrite NO", cursive',
                   }}
                 >
                   Chú rể
@@ -621,6 +621,7 @@ function CalendarSection() {
                       fontSize: "0.26rem",
                       fontWeight: "bold",
                       cursor: "pointer",
+                      fontFamily: '"Playwrite NO", cursive',
                     }}
                   >
                     Sao chép số TK
@@ -640,6 +641,7 @@ function CalendarSection() {
                     textAlign: "center",
                     display: "block",
                     marginBottom: "0.15rem",
+                    fontFamily: '"Playwrite NO", cursive',
                   }}
                 >
                   Cô dâu
@@ -694,6 +696,7 @@ function CalendarSection() {
                       fontSize: "0.26rem",
                       fontWeight: "bold",
                       cursor: "pointer",
+                      fontFamily: '"Playwrite NO", cursive',
                     }}
                   >
                     Sao chép số TK
@@ -714,6 +717,7 @@ function CalendarSection() {
                 fontSize: "0.3rem",
                 fontWeight: "500",
                 cursor: "pointer",
+                fontFamily: '"Playwrite NO", cursive',
               }}
             >
               Đóng

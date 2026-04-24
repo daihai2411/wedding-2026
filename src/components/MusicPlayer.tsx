@@ -4,7 +4,7 @@ import musicFile from "../assets/50-nam-ve-sau.mp3";
 function MusicPlayer() {
   const [isPlaying, setIsPlaying] = useState(true);
   const audioRef = useRef<HTMLAudioElement>(null);
-  const fadeInterval = useRef(null);
+  const fadeInterval = useRef<any>(null);
 
   const fadeVolume = (target: number) => {
     if (!audioRef.current) return;
